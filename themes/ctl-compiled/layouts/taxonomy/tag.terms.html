@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+{{ partial "header.html" . }}
+<body>
+{{ partial "banner.html" . }}
+<main class="container" id="maincontent">
+
+<h1 class="list-view-title">All CompilED Tags</h1>
+
+<nav class="tag-terms-view">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="tag-popular-tab" data-toggle="tab" href="#tag-popular" role="tab" aria-controls="tag-popular" aria-selected="true">Most popular</a>
+        <a class="nav-item nav-link" id="tag-all-list-tab" data-toggle="tab" href="#tag-all-list" role="tab" aria-controls="tag-all-list" aria-selected="false">All tags</a>
+    </div>
+</nav>
+<div class="tab-content tag-terms-view" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="tag-popular" role="tabpanel" aria-labelledby="tag-popular-tab">
+<ul class="d-flex flex-wrap">
+    {{ $data := .Data }}
+    {{ range $key, $value := first 12 .Data.Terms.ByCount }}
+    <li>
+        <a rel="tag" href="/{{ $data.Plural }}/{{ $value.Name | urlize }}">
+            {{ $value.Name }} <span>{{$value.Count}}</span>
+        </a>
+    </li>
+    {{ end }}
+</ul>
+    </div>
+    <div class="tab-pane fade" id="tag-all-list" role="tabpanel" aria-labelledby="tag-all-list-tab">
+    <div id="index-list">
+        <!-- The following cannot have a line-break for the script to work -->        
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms }}
+        <div class="list-item"><div class="item-title"><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{  $key }} <span class="weight-{{ if lt (len $value) 10 }}0{{ end }}{{ len $value }}">({{ len $value }})</span></a></div></div>
+    {{ end }}
+        
+    </div>
+
+
+
+    </div>
+</div>
+
+
+    </main>
+{{ partial "footer.html" . }}
+{{ partial "javascript.html" . }}
+<script src="{{ .Site.BaseURL }}js/alphalist.js"></script>
+</body>
+</html>

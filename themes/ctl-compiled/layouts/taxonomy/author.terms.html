@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+{{ partial "header.html" . }}
+<body itemscope itemtype="http://schema.org/BlogPosting">
+{{ partial "banner.html" . }}
+    <main class="container" id="maincontent">
+        <h1 class="list-view-title">CompilED Authors</h1>
+        {{ $data := .Data }}
+        {{ $team := index .Site.Data.authors "ctldev" }}
+        <section class="author-cards">
+            <div class="row mt-4">
+                {{ range $key, $value := .Site.Data.authors }}
+                    {{ $allauthors := index $.Site.Data.authors $key}}
+                    {{ if (and (ne $key "ctldev") (eq $allauthors.status "current")) }}
+                    <div class="col-sm-6 col-lg-4 author-card" tabindex="0">
+                        <div class="main-content">
+                            <div class="author-headshot"><img src="/img/authors/{{ .headshot }}" aria-hidden="true" /></div>
+                            <dl class="text-center">
+                                <dt class="h2"><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{ .name }}</a></dt>
+                                    <dd class="mb-4">{{ .jobTitle }}</dd>
+                                    <dd class="read-prompt d-inline border-right border-secondary p-0 pr-2"><a href="/{{ $data.Plural }}/{{ $key | urlize }}">Article list</a></dd>
+                                    <dd class="read-prompt d-inline p-0 pl-1"><a href="mailto:{{ .email }}">Email<span class="sr-only">{{ .email }}</span></a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    {{ end }}
+                {{ end }}
+
+                    <div class="col-sm-6 col-lg-4 author-card" tabindex="0">
+                        <div class="main-content">
+                            <div class="author-headshot"><img src="/img/authors/{{ $team.headshot }}" aria-hidden="true" /></div>
+                            <dl class="text-center">
+                                <dt class="h2"><a href="/{{ $data.Plural }}/ctldev/">{{ $team.name }}</a></dt>
+                                    <dd class="read-prompt"><a href="/{{ $data.Plural }}/ctldev/">Article list</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+            </div>
+            <hr />
+            <h2>Other contributors</h2>
+            <ul>
+            {{ range $key, $value := .Site.Data.authors }}
+                {{ $allauthors := index $.Site.Data.authors $key}}
+                {{ if (and (ne $key "ctldev") (eq $allauthors.status "inactive")) }}
+                <li>{{ .name }} (<a href="/{{ $data.Plural }}/{{ $key | urlize }}">Article list</a>)</li>
+                {{ end }}
+            {{ end }}
+            </dl>
+        </section>
+    </main>
+{{ partial "footer.html" . }}
+{{ partial "javascript.html" . }}
+</body>
+</html>

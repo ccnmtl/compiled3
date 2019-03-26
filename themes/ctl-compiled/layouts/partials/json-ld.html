@@ -1,0 +1,33 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org", 
+     "@type": "Blog",
+     "name": "{{ .Site.Title }}",
+     "image": "{{ "img/og-compiled-image.png" | absURL }}",
+     "publisher": "Center for Teaching and Learning at Columbia University",
+     "url": "",
+     "about": "{{ .Site.Params.description }}",
+     "keywords": ""
+ }
+</script>
+{{ end }}
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org", 
+     "@type": "BlogPosting",
+     "headline": "{{ .Title }}",
+     "image": "",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+     "publisher": "Center for Teaching and Learning at Columbia University",
+     "url": "{{ .Permalink }}",
+     "about": "{{ .Params.lede }}",
+     "datePublished": "{{ .Date.Format "2006-01-02"  }}"
+     "keywords": ""
+ }
+</script>
+{{ end }}

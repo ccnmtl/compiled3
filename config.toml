@@ -1,0 +1,16 @@
+baseURL = "https://compiled.ctl.columbia.edu/"
+copyright = "Creative Commons Attribution-ShareAlike 3.0 United States."
+languageCode = "en-us"
+metaDataFormat = "yaml"
+title = "CompilED: And Often Interpreted"
+SectionPagesMenu = "main"
+theme = "ctl-compiled"
+
+[taxonomies]
+    tag = "tags"
+    author = "authors"
+
+[params]
+    description = "CompilED is a collection of post by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at hackers, programmers, designers, and architects of all flavors, but everyone is welcome."
+    keywords = ""
+    shortTitle = "CompilED"

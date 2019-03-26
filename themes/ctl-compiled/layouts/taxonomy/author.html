@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+{{ partial "header.html" . }}
+<body itemscope itemtype="http://schema.org/BlogPosting" class="default-list-view">
+{{ partial "banner.html" . }}
+<main class="container" id="maincontent">
+    {{ $authorname := .Title | lower }}
+    {{ $authordata := index .Site.Data.authors $authorname }}
+
+    <div class="d-lg-flex flex-row author-info">
+        {{ if $authordata.headshot }}
+        <div class="author-headshot"><img src="/img/authors/{{ $authordata.headshot }}" aria-hidden="true" /></div>
+        {{ end }}
+        <div>
+            <h1 class="list-view-title author-name">{{ $authordata.name }}</h1>
+            {{ if eq $authordata.name "current" }}
+            <p class="intro">{{ $authordata.firstName }} is the {{ $authordata.jobTitle }} at the Center for Teaching and Learning. {{ $authordata.bioLine }}</p>
+            <div class="author-joblink"><a href="mailto:{{ $authordata.email }}" title="Send email to {{ $authordata.firstName }}"><i class="mr-2 far fa-envelope fa-lg" aria-hidden="true"></i><span aria-hidden="true">Email</span><span class="sr-only">Send email to {{ $authordata.firstName }} at {{ $authordata.email }}</span></a> • <a href="{{ $authordata.jobLink }}">{{ $authordata.firstName }}’s CTL bio <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a></div>
+            {{ else }}
+            <p class="intro">{{ $authordata.firstName }} was the {{ $authordata.jobTitle }} at the Center for Teaching and Learning.</p>            
+            {{ end }}
+        </div>
+    </div>
+
+
+    {{ $paginator := .Paginate .Data.Pages }}
+
+    {{ range $paginator.Pages }}
+    {{ .Render "summary" }}
+    {{ end }}
+
+    <p class="author-postnum"><i class="fas fa-lg fa-cat" aria-hidden="true"></i> Total: {{ len .Data.Pages }} articles</p>
+    {{partial "pagination.html" .}}
+</main>
+{{ partial "footer.html" . }}
+{{ partial "javascript.html" . }}
+</body>
+</html>

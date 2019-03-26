@@ -1,0 +1,61 @@
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- end }}
+    <img src="{{ .Get "src" }}"
+         {{- if or (.Get "alt") (.Get "caption") }}
+         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+         {{- end -}}
+         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+    /> <!-- Closing img tag -->
+    {{- if .Get "link" }}</a>{{ end -}}
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <figcaption>
+            {{ with (.Get "title") -}}
+                <h4>{{ . }}</h4>
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <span class="img-attr">Source: <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a></span>{{ end }}</p>
+            {{- end }}
+            {{- if .Get "zoomify" -}}
+                <p class="d-none d-md-block">(<a data-toggle="modal" href="#{{ .Get "zoomify" }}">View larger</a>)</p>
+            {{- end -}}
+        </figcaption>
+    {{- end }}
+</figure>
+{{- if .Get "zoomify" -}}
+<!-- Modal -->
+<div class="modal modal-expand-container fade" id="{{ .Get "zoomify" }}" tabindex="-1" role="dialog" aria-labelledby="{{ .Get "zoomify" }}Title">
+  <div class="modal-dialog modal-dialog-centered modal-expand" role="document">
+    <div class="modal-content">
+      <div class="modal-header justify-content-end">
+        <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body">
+        <img src="{{ .Get "src" }}" alt="caption" class="img-fluid" />
+{{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <p>
+            {{ with (.Get "title") -}}
+                <h4>{{ . }}</h4>
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <span class="img-attr">Source: <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a></span>{{ end }}</p>
+            {{- end }}
+        </p>
+    {{- end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{- end -}}

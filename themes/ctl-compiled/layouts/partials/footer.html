@@ -1,0 +1,31 @@
+    <footer>
+        <section class="d-sm-flex justify-content-center follow-links">
+                <h2>Follow CompilED:</h2>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a href="#" aria-label="RSS Feed"><i class="fas fa-rss" aria-hidden="true"></i></a></li>
+                    <li class="nav-item"><a href="#" aria-label="Github"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li class="nav-item"><a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+        </section>
+        <section class="container compiled-info">
+        <p itemprop="about">CompilED is a collection of reflections and comments by the <a href="#">software developers</a> at Columbia's Center for Teaching and Learning. These views are rooted in our professional and personal experiences developing educational technology. Browse our <a href="#">posts</a>, and learn more <a href="#">about us</a>.</p>
+
+        <p>Unless otherwise noted, the content on this blog is licensed under a <a itemprop="license" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> license. CompilED source code is on Github with <a itemprop="license" rel="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a> license.</p>
+        
+        <div class="ctl-branding">
+            <h2 class="sr-only">CompilED is part of</h2>
+            <div itemscope itemtype="http://schema.org/EducationalOrganization">
+                <a href="https://ctl.columbia.edu" target="_blank" itemprop="url"><img src='{{ "img/logo-ctl-color.svg" | absURL }}' alt="" itemprop="logo" /><span class="sr-only" itemprop="name">The Center for Teaching and Learning at Columbia University</span></a>
+                <div class="d-none d-print text-center">ctl.columbia.edu</div>
+            </div>
+        </div>
+        </section>
+        <section class="text-center text-body mt-5">
+        <span> Type: {{.Type}}; Kind: {{.Kind}}</span>
+        <span class="d-none d-xl-block">XL</span>
+        <span class="d-none d-lg-block d-xl-none">LG</span>
+        <span class="d-none d-md-block d-lg-none">MD: Tablet</span>
+        <span class="d-none d-sm-block d-md-none">SM: Phone</span>
+        <span class="d-block d-sm-none">XS: Phone</span>
+        </section>
+    </footer>

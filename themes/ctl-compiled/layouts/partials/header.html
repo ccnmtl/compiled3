@@ -1,0 +1,26 @@
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {{ "<!-- Bootstrap CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap-4.3.1/css/bootstrap.min.css">
+
+    {{ "<!-- Theme CSS -->" | safeHTML }}    
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/tagview.css" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/paginator.css" />
+    <meta name="theme-color" content="#d4e3fc">
+
+    {{ "<!-- FontAwesome CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fontawesome-5.7.2/css/all.css">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Params.shortTitle }}{{ end }}</title>
+
+    {{ "<!-- RSS feed -->" | safeHTML }}
+    <link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="{{ .Site.BaseURL }}index.xml" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+
+    {{ partial "json-ld.html" . }}
+
+  </head>

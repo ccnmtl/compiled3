@@ -1,0 +1,49 @@
+.socmedia-share {
+    border: 1px dotted #ccc;
+    border-right: 0;
+    border-left: 0;
+    padding: 0 0.625rem;
+    text-align: center;
+    margin: 2rem auto;
+    height: 2.5rem;
+    width: 20rem;
+    font-size: 1rem;
+}
+
+.socmedia-share h4 {
+    margin: 0 0 0 0;
+    padding: 0;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.5rem;
+	height: 2.5rem;
+	float: left;
+}
+
+.socmedia-share ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    list-style: none;
+}
+
+.socmedia-share ul>li {
+    float: left;
+    display: block;
+}
+
+.socmedia-share img {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 15px !important;
+}
+
+.socmedia-share a {
+    padding: 0 10px;
+    display: block;
+    margin: 0 0;
+}
+
