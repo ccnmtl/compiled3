@@ -1,0 +1,46 @@
+{
+  "name": "compiled3",
+  "version": "3.0.0",
+  "description": "Blog posts by team of developers at the Center for Teaching and Learning, Columbia University",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ccnmtl/compiled3.git"
+  },
+  "author": {
+    "name": "Zarina Mustapha",
+    "email": "zarina@columbia.edu"
+  },
+  "contributors": [
+    {
+      "name": "Nick Buonincontri",
+      "email": "nb2413@columbia.edu"
+    },
+    {
+      "name": "Susan Dreher",
+      "email": "sdreher@columbia.edu"
+    },
+    {
+      "name": "Nik Nyby",
+      "email": "nnyby@columbia.edu"
+    },
+    {
+      "name": "Shashi Yellambhatla",
+      "email": "sy2787@columbia.edu"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ccnmtl/compiled3/issues"
+  },
+  "devDependencies": {
+    "eslint": "~5.2.0",
+    "eslint-plugin-no-unsafe-innerhtml": "~1.0.16",
+    "eslint-plugin-scanjs-rules": "~0.2.1",
+    "eslint-plugin-security": "~1.4.0"
+  },
+  "dependencies": {}
+}

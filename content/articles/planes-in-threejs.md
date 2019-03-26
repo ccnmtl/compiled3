@@ -1,7 +1,6 @@
 ---
 title: "How to Work with Planes in three.js"
 date: 2019-03-08
-draft:  true
 type: "post"
 authors: ["nyby"]
 tags: ["javascript","three.js", "graphics"]

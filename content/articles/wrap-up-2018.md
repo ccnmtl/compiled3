@@ -1,7 +1,6 @@
 ---
 title: "2018 CompilED Posts Wrap-up"
 date: "2019-01-07"
-draft:  true
 type: "post"
 authors: ["ctldev"]
 tags: ["wrap-up","reviews"]

@@ -1,7 +1,6 @@
 ---
 title: "Notes from Grace Hopper Connect @ Google 2018"
 date: "2018-09-28"
-draft:  true
 type: "post"
 authors: ["dreher"]
 tags: [conference, women, google, ghc, gracehopper, events]

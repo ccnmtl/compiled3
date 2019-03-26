@@ -13,7 +13,7 @@
         {{ end }}
         <div>
             <h1 class="list-view-title author-name">{{ $authordata.name }}</h1>
-            {{ if eq $authordata.name "current" }}
+            {{ if eq $authordata.status "current" }}
             <p class="intro">{{ $authordata.firstName }} is the {{ $authordata.jobTitle }} at the Center for Teaching and Learning. {{ $authordata.bioLine }}</p>
             <div class="author-joblink"><a href="mailto:{{ $authordata.email }}" title="Send email to {{ $authordata.firstName }}"><i class="mr-2 far fa-envelope fa-lg" aria-hidden="true"></i><span aria-hidden="true">Email</span><span class="sr-only">Send email to {{ $authordata.firstName }} at {{ $authordata.email }}</span></a> • <a href="{{ $authordata.jobLink }}">{{ $authordata.firstName }}’s CTL bio <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a></div>
             {{ else }}

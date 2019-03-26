@@ -19,14 +19,14 @@
         list[letter].sort(function(a, b) {
             return jQuery(a).text().toUpperCase()
                 .localeCompare(jQuery(b).text().toUpperCase());
-        });     
+        });
         var ul = jQuery('<div class="list-group-items"/>');
         jQuery.each(list[letter], function(idx, itm) {
             ul.append(itm);
         });
         jQuery('#index-list')
             .append(
-                jQuery('<div class="list-group" role="group"' + 
+                jQuery('<div class="list-group" role="group"' +
                        'aria-labelledby="group-' +
                        letter.toLowerCase() + '" id="' +
                        letter.toLowerCase() + '"/>')
