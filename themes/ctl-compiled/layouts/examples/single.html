@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {{ "<!-- Bootstrap CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap-4.3.1/css/bootstrap.min.css">
+
+    {{ "<!-- Theme CSS -->" | safeHTML }}    
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+    <meta name="theme-color" content="#d4e3fc">
+
+    {{ "<!-- FontAwesome CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fontawesome-5.7.2/css/all.css">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Params.shortTitle }}{{ end }}</title>
+
+  </head>
+
+<body>
+
+    <header class="site-header">
+        <a href="#maincontent" class="skippy focus-none sr-only sr-only-focusable">
+            <span class="skippy-text">Skip to main content</span>
+        </a>
+        <nav class="navbar navbar-default justify-content-start container" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            <a href="{{ .Site.BaseURL }}" itemprop="url" class="navbar-brand" aria-label="Go to CompilED homepage"><span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject"><img src='{{ "img/banner-front-logo.svg" | absURL }}' alt="banner-front-logo" itemprop="url"  alt="CompilED logo" /></span><span aria-hidden="true" class="sr-only" itemprop="name">CompilED Blog</span></a>
+            <div class="example-title m-0">Examples</div>
+        </nav>    
+    </header>
+
+    <main class="container" id="maincontent">
+<h1 class="entry-title text-center">{{ .Title }}</h1>
+{{ .Content }}</main>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{ .Site.BaseURL }}js/lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="{{ .Site.BaseURL }}css/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+<!-- Example JS file -->
+{{ if .Params.js_file1 }}
+<script src="{{ .Params.js_file1 }}"></script>
+{{ end }}
+<!-- JS for cookie policy -->
+
+</body>
+
+</html>
