@@ -18,7 +18,7 @@ poster_source: ""
 ---
 
 _“Accessibility is like a blueberry muffin—you can’t push the berries in there afterward.”_  
-— <a href="https://twitter.com/AccEase" target="_blank">@jina</a> quoting <a href="https://twitter.com/cordeliadillon" target="_blank">@CordeliaDillon</a> at the Smashing Conference.
+— <a href="https://twitter.com/AccEase" rel="noopener noreferrer" target="_blank">@jina</a> quoting <a href="https://twitter.com/cordeliadillon" rel="noopener noreferrer" target="_blank">@CordeliaDillon</a> at the Smashing Conference.
 
 This summer, we migrated two of our Dental School projects,
 [MATCH](https://match.ccnmtl.columbia.edu) and
