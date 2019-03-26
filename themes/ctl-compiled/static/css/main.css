@@ -354,6 +354,13 @@ code {
     background-color: transparent !important;
 }
 
+.example-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
 /* Entry header */
 
 .entry-header {
