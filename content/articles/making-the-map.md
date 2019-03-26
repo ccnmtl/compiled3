@@ -1,7 +1,6 @@
 ---
 title: "Making the Map"
 date: "2018-09-26"
-draft:  true
 type: "post"
 authors: ["dreher"]
 tags: [django, python, maps]

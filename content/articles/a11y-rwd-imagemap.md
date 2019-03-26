@@ -1,7 +1,6 @@
 ---
 title: "Disentangling an Imagemap for Accessibility"
 date: "2018-12-19"
-draft:  true
 type: "post"
 authors: ["mustapha"]
 tags: [css, accessibility, "user interface", "user experience"]

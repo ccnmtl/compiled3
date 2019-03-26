@@ -1,7 +1,6 @@
 ---
 title: "How to Make an Analog Clock (Part 1)"
 date: "2018-12-02"
-draft:  true
 type: "post"
 authors: ["nyby"]
 tags: ["javascript", "react", "pixijs"]
