@@ -11,7 +11,7 @@
                 <img src="{{ .Site.BaseURL }}img/assets/{{ .Params.poster }}" class="img-fluid" alt="Banner image for this post" />
                 {{ if .Params.poster_source }}
                 <figcaption class="poster-source">
-                <span class="img-attr">Source: <a href="{{ .Params.poster_sourceurl }}" target="_blank">{{ .Params.poster_source }}</a></span>
+                <span class="img-attr">Source: <a href="{{ .Params.poster_sourceurl }}" target="_blank" rel="noopener noreferrer">{{ .Params.poster_source }}</a></span>
                 </figcaption>
                 {{ end }}
                 </figure>
@@ -42,9 +42,6 @@
                         </li>
                         <li class="nav-item">
                         <a rel="nofollow noopener noreferrer" class="nav-link" target="_blank" href="//www.reddit.com/submit?url={{ .Permalink }}"><i class="fab fa-reddit-alien" aria-label="Reddit"></i></a>
-                        </li>
-                        <li class="nav-item">
-                        <a rel="nofollow noopener noreferrer" class="nav-link" target="_blank" href="https://plus.google.com/share?url={{ .Permalink }}"><i class="fab fa-google-plus-g" aria-label="Google Plus"></i></a>
                         </li>
                     </ul>
                 </div>
