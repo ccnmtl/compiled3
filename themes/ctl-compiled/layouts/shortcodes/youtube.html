@@ -1,0 +1,14 @@
+<div class="video-player {{ with .Get "class" }}{{ . }} {{ end }}embed-responsive embed-responsive-16by9 d-print-none">
+	<iframe src='https://www.youtube.com/embed/{{ .Get "id" }}' 
+		title='{{ .Get "title" }}'
+		allowfullscreen
+		frameborder="0"
+		class="embed-responsive-item"
+	></iframe>
+</div>
+
+<div class="d-none d-print-block print-alert">
+<p>This segment of the page contains a video, “{{ .Get "title" }}”.
+The link to this video  is:<br />
+https://www.youtube.com/watch?v={{ .Get "id" }}</p>
+</div>

@@ -156,8 +156,7 @@ teaching people to collaborate effectively is more important, and harder, than
 teaching them to code. She thinks that the style of collaboration found in most
 open source projects is a model for educators to build upon:
 
-<div class="video-display embed-responsive embed-responsive-4by3"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ckW1xuGVpug" allowfullscreen></iframe></div><p class="visible-print-block">
-[Video:](https://www.youtube.com/embed/ckW1xuGVpug)</p>
+{{< youtube id="ckW1xuGVpug" title="Lorena Barba - Keynote - PyCon 2016" >}}
 
 The dream of collaboration remains an intriguing and often elusive promise of
 networked technologies. For my swan song at Columbia, Mark Phillipson and I

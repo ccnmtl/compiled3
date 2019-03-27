@@ -493,6 +493,19 @@ code {
     color: #060;
 }
 
+.video-player {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0.0625rem solid #ddd;
+}
+
+.print-alert {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 1rem auto;
+}
+
 /* Article list page */
 
 .list-view-title {
@@ -754,6 +767,10 @@ blockquote {
         font-size: 0.875rem;
         border: 1px solid #ccc;
         border-radius: 0.3125rem;;
+    }
+    .video-player {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .list-view-title {
         margin-top: 2rem;
