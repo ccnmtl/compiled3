@@ -47,6 +47,7 @@ Google was welcome and felt sincere. Though, I still cringe over the
 and note Google’s [dismal diversity stats](https://www.wired.com/story/googles-employee-diversity-numbers-havent-really-improved/).
 
 ### Padmasree Warrior, CEO &amp; Chief Development Officer, NIO U.S.
+
 [Bio](https://ghc.anitab.org/2018-speakers-honorees/2018-speakers/padmasree-warrior/) | [Video](https://youtu.be/o7QO0VRTDUE?t=1050)
 
 Ms. Warrior reflected on her own career and offered tips on career mobility.
@@ -56,6 +57,7 @@ self-doubt that often plagues women in the sciences:
 “Open doors &amp; go through them. Don’t wait for the perfect door.”
 
 ### Dr. Rebecca Parsons, CTO Thoughtworks
+
 [Bio](https://anitab.org/profiles/abie-award-winners/technical-leadership/rebecca-parsons/) | [Video](https://youtu.be/o7QO0VRTDUE?t=2527)
 
 Dr. Parsons is the winner of this year’s “Technical Leadership Abie Award”,
@@ -67,6 +69,7 @@ Find those words, then live them and share them.”
 
 ### Jennifer O. Matthews, Uncharted Power
 [Bio](https://ghc.anitab.org/2018-speakers-honorees/2018-speakers/jessica-o-matthews/) | [Video](https://youtu.be/o7QO0VRTDUE?t=3491)
+
 Ms. Matthews is the Founder &amp; CEO of Uncharted Power, an award-winning
 renewable power company right here in NYC. The company was founded by Jessica
 when she was only 22 years old.

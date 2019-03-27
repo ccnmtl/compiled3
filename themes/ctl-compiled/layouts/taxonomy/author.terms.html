@@ -36,9 +36,11 @@
                         </div>
                     </div>
             </div>
-            <hr />
+        </section>
+        <hr />
+        <section class="contrib-authors">
             <h2>Other contributors</h2>
-            <ul>
+            <ul class="mt-4">
             {{ range $key, $value := .Site.Data.authors }}
                 {{ $allauthors := index $.Site.Data.authors $key}}
                 {{ if (and (ne $key "ctldev") (eq $allauthors.status "inactive")) }}

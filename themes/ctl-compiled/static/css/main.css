@@ -294,6 +294,16 @@ code {
 
 .more-posts .read-prompt {
     font-size: 1.25rem;
+    padding: 1rem;
+    background-color: #f6f6f6;
+    border-radius: 3rem;
+}
+
+.more-posts .read-prompt:focus, .more-posts .read-prompt:active {
+    border: 0;
+    outline: 0;
+    color: #fff !important;
+    background-color: #06c;
 }
 
 .follow-links * {
@@ -433,6 +443,13 @@ code {
     line-height: 130%;
     font-style: italic;
     color: #666;
+}
+
+.entry-content ol li,
+.entry-content ul li,
+.contrib-authors li {
+    margin: 0 auto 0.5rem auto;
+    font-size: 1rem;
 }
 
 .entry-content pre {
@@ -718,6 +735,11 @@ blockquote {
     }
     .entry-content p {
         margin: 0 auto 1.2rem auto;
+        font-size: 1.125rem;
+    }
+    .entry-content ol li,
+    .entry-content ul li,
+    .contrib-authors li {
         font-size: 1.125rem;
     }
     .entry-content figure {
