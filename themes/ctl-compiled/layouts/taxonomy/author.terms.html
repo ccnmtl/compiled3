@@ -14,7 +14,7 @@
                     {{ if (and (ne $key "ctldev") (eq $allauthors.status "current")) }}
                     <div class="col-sm-6 col-lg-4 author-card" tabindex="0">
                         <div class="main-content">
-                            <div class="author-headshot"><img src="/img/authors/{{ .headshot }}" aria-hidden="true" /></div>
+                            <div class="author-headshot"><img src="/img/authors/{{ .headshot }}" alt="" aria-hidden="true" /></div>
                             <dl class="text-center">
                                 <dt class="h2"><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{ .name }}</a></dt>
                                     <dd class="mb-4">{{ .jobTitle }}</dd>
@@ -28,7 +28,7 @@
 
                     <div class="col-sm-6 col-lg-4 author-card" tabindex="0">
                         <div class="main-content">
-                            <div class="author-headshot"><img src="/img/authors/{{ $team.headshot }}" aria-hidden="true" /></div>
+                            <div class="author-headshot"><img src="/img/authors/{{ $team.headshot }}" alt="" aria-hidden="true" /></div>
                             <dl class="text-center">
                                 <dt class="h2"><a href="/{{ $data.Plural }}/ctldev/">{{ $team.name }}</a></dt>
                                     <dd class="read-prompt"><a href="/{{ $data.Plural }}/ctldev/">Article list</a></dd>

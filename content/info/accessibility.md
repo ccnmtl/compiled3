@@ -3,12 +3,45 @@ title: "Accessibility Statement"
 date: 2019-03-27
 type: "info"
 ---
-[Organization name] is committed to ensuring accessibility of its website and intranet to people with disabilities. New and updated web content produced by our organization will meet [link to standard] [version number], [level of conformance], by [compliance date].
+The software development team at Columbia CTL is committed to making CompilED
+content inclusive and accessible for everyone, including people with
+disabilities.
 
-Existing web content produced by our organization will meet our standard by [existing content compliance date].
+## Conformance status
 
-Content provided for our site by third-party developers will meet [third-party content standard] [version number] by [third-party content compliance date]. This [does/does not] include user-generated content.
+We are continually producing content on CompilED that meets the
+[Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/).
+CompilED is partially conformant to WCAG 2.0 Level AA.
 
-We aim to ensure that our authoring tools and processes meet [authoring tools standard] [version number] by [authoring tools compliance date]. By [preferential purchasing date] we will preferentially purchase authoring tools that meet or exceed our web accessibility policy.
+### Limitations
 
-We will review this policy [review period] on or before the [policy review date]. This policy was last reviewed on [last review date], by [reviewer].
+CompilED has been audited and evaluated with the assessment tools mentioned in
+this statement. Some parts of the content do not fully conform to the WCAG 2.0
+standards:
+
+* Contrast ratios (link-to-text, text-to-background) for some elements are
+lower than recommended values.
+* Third-party content (external videos, embedded documents, images) used in
+CompilED may not be fully accessible.
+* Articles published prior to 2016 may not be fully compliant.
+
+We will continue to work on fixing these issues.
+
+## Assessment approach
+
+We assessed and tested CompilED using the following tools. Nearly all of the
+pages show minor to no violations of the accessibility standards.
+
+* [Axe](https://www.deque.com/axe/) web accessibility testing tool by 
+[Deque Systems](https://www.deque.com)
+* [Wave](https://wave.webaim.org/extension/) web accessibility evaluation tool
+by [WebAIM](https://webaim.org/)
+* [VoiceOver](https://www.apple.com/accessibility/mac/vision/), the screen
+reader by Apple
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/), an
+open-source, automated auditor by [Google](https://www.google.com/accessibility/)
+
+## Feedback
+
+We welcome your feedback on the accessibility of CompilED. Please email us at
+<a href="mailto:ctl-accessibility@columbia.edu">ctl-accessibility@columbia.edu</a>.
