@@ -11,6 +11,6 @@ theme = "ctl-compiled"
     author = "authors"
 
 [params]
-    description = "CompilED is a collection of post by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at programmers, media/video producers, designers, and software architects of all flavors, but everyone is welcome."
+    description = "CompilED is a collection of posts by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at software developers and architects, UX/UI designers, and media/video producers of all flavors, but everyone is welcome."
     keywords = "edtech, educational technology, software development"
     shortTitle = "CompilED"
