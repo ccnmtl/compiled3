@@ -21,6 +21,9 @@
     {{ "<!-- RSS feed -->" | safeHTML }}
     <link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
+    {{ "<!-- CSS for cookie policy -->" | safeHTML }}
+    <link rel="stylesheet" href="https://search.sites.columbia.edu/cu-privacy-notice/cu-privacy-notice.css" />
+
     {{ partial "seo.html" . }}
 
     {{ partial "favicon.html" . }}
