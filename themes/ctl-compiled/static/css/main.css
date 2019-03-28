@@ -290,6 +290,7 @@ code {
 
 .more-posts {
     text-align: center;
+    margin: 0 0;
 }
 
 .more-posts .read-prompt {
@@ -304,6 +305,25 @@ code {
     outline: 0;
     color: #fff !important;
     background-color: #06c;
+}
+
+.compiled-moreinfo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+	margin: 0 0 2rem 0;
+	padding: 0;
+    background-color: transparent;
+}
+
+.compiled-moreinfo .nav-item:first-child {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.compiled-moreinfo .nav-item:last-child {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .follow-links * {
@@ -674,6 +694,9 @@ blockquote {
 .recent-post h3, .author-card .h2 {
     font-size: 1.5rem;
 }
+.more-posts {
+    margin: 3rem 0;
+}
 .more-posts .read-prompt {
     font-size: 1.75rem;
 }
@@ -795,6 +818,18 @@ blockquote {
     .author-joblink {
         font-size: 1.125rem;
     }
+    .compiled-moreinfo {
+        font-size: 1.125rem;
+    }
+    .compiled-moreinfo .nav-item:first-child {
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+
+    .compiled-moreinfo .nav-item:last-child {
+        padding-right: 0;
+        padding-left: 1rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -862,6 +897,9 @@ blockquote {
         text-align: left;
         font-size: 1.125rem;
         margin-top: 1rem;
+    }
+    .compiled-moreinfo {
+        font-size: 1.25rem;
     }
 }
 

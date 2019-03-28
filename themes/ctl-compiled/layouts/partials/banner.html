@@ -14,16 +14,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item{{ if eq .Title "Articles" }} active{{ end }}">
-                    <a href="{{ .Site.BaseURL }}articles/" itemprop="url" class="nav-link"><span itemprop="name">Articles</span> <!-- <span class="sr-only">(current)</span>--></a>
+                    <a href="{{ .Site.BaseURL }}articles/" itemprop="url" class="nav-link"><span itemprop="name">Articles</span>{{ if eq .Title "Articles" }} <span class="sr-only">(current)</span>{{ end }}</a>
                     </li>
                     <li class="nav-item{{ if eq .Title "Tags" }} active{{ end }}">
-                    <a href="{{ .Site.BaseURL }}tags/" itemprop="url" class="nav-link">Tags</a>
+                    <a href="{{ .Site.BaseURL }}tags/" itemprop="url" class="nav-link"><span itemprop="name">Tags</span>{{ if eq .Title "Tags" }} <span class="sr-only">(current)</span>{{ end }}</a>
                     </li>
                     <li class="nav-item{{ if eq .Title "Authors" }} active{{ end }}">
-                    <a href="{{ .Site.BaseURL }}authors/" itemprop="url" class="nav-link">Authors</a>
-                    </li>
-                    <li class="nav-item{{ if eq .Title "About" }} active{{ end }}">
-                    <a href="{{ .Site.BaseURL }}about/" itemprop="url" class="nav-link">About</a>
+                    <a href="{{ .Site.BaseURL }}authors/" itemprop="url" class="nav-link"><span itemprop="name">Authors</span>{{ if eq .Title "Authors" }} <span class="sr-only">(current)</span>{{ end }}</a>
                     </li>
                 </ul>
             </div>
