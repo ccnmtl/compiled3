@@ -9,7 +9,7 @@ poster_sourceurl: "https://www.instagram.com/p/BUEdfYAgeJP/"
 poster_source: "Zarina Mustapha"
 ---
 
-CompilED is a collection of post by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at software developers and architects, UX/UI designers, and media/video producers of all flavors, but everyone is welcome.
+CompilED is a collection of posts by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at software developers and architects, UX/UI designers, and media/video producers of all flavors, but everyone is welcome.
 
 -----------
 
