@@ -1,7 +1,6 @@
 ---
 title: "Accessibility Statement"
 date: 2019-03-27
-draft: true
 type: "info"
 ---
 [Organization name] is committed to ensuring accessibility of its website and intranet to people with disabilities. New and updated web content produced by our organization will meet [link to standard] [version number], [level of conformance], by [compliance date].

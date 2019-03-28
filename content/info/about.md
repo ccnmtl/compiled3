@@ -1,7 +1,6 @@
 ---
 title: "About CompilED"
 date: 2019-03-28
-draft: true
 type: "info"
 poster: "poster-about.jpg"
 socmediaimg: ""
