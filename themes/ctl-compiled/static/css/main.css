@@ -585,12 +585,41 @@ code {
     margin-bottom: 0.5rem;
 }
 
-.author-joblink {
+.author-network {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.network-link {
+    text-align: center;
+    line-height: 2.5rem;
+    margin: 0 0.25rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.network-link a {
+    font-size: 1.125rem;
+    border: 1px solid #ccc;
+    display: block;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.network-link a:hover,
+.network-link a:focus,
+.network-link a:active {
+    border: 1px solid #06c;
+    outline: 0;
+    color: #fff !important;
+    background-color: #06c;
 }
 
 .author-postnum {
@@ -642,6 +671,18 @@ footer {
 @media (min-width: 576px) {
     h1 {
         font-size: 1.5rem;
+    }
+    .network-link {
+        line-height: 3rem;
+        height: 3rem;
+        width: 3rem;
+    }
+    .network-link a {
+        font-size: 1.375rem;
+        height: 3rem;
+        width: 3rem;
+        line-height: 3rem;
+        text-align: center;
     }
 }
 
@@ -828,7 +869,7 @@ blockquote {
         text-align: center;
         margin-top: 1rem;
     }
-    .author-joblink {
+    .author-network {
         font-size: 1.125rem;
     }
     .compiled-moreinfo {
@@ -909,7 +950,7 @@ blockquote {
         margin-top: 1rem;
         margin-bottom: 0.5rem;
     }
-    .author-joblink {
+    .author-network {
         text-align: left;
         font-size: 1.125rem;
         margin-top: 1rem;
