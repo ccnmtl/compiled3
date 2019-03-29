@@ -126,7 +126,7 @@ clicks a tab, the associated explanation is revealed in the text box.
 
 {{< figure
     src="/img/assets/repack-phtc.jpg"
-    alt=""Visual representation of the preceeding paragraph" >}}
+    alt="Visual representation of the preceeding paragraph" >}}
 
 This was an appealing design for the following reasons:
 
@@ -174,7 +174,7 @@ guidelines. This is still a work in progress.
 
 {{< figure
     src="/img/assets/lighthouse-phtc.png"
-    alt=""Visual representation of the preceeding paragraph" >}}
+    alt="Visual representation of the preceeding paragraph" >}}
 
 Lighthouse and Axe are accessibility tests for codes and technology. But did
 the new arrangement of content make sense cognitively in assistive devices and
@@ -204,7 +204,7 @@ abilities.
 
 {{< figure
     src="/img/assets/a11y-pieces.png"
-    alt=""Visual representation of the preceeding paragraph" >}}
+    alt="Visual representation of the preceeding paragraph" >}}
 
 The awareness of the learning process informs us how we should code to ensure
 that the intended pedagogy can be processed by everyone, with differing
