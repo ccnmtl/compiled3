@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 {{ partial "header.html" . }}
-<body>
+<body itemscope itemtype="http://schema.org/Blog">
 {{ partial "banner.html" . }}
     <main class="container" id="maincontent">
         <article class="row entry-body">
@@ -20,7 +20,7 @@
                     {{ .Title }}
                 </h1>
                 <p class="post-byline mb-3">Last modified: 
-                <time class="post-datepublished">{{ .Date.Format "Jan 2, 2006" }}</time>
+                <time class="post-datepublished" datetime='{{ .Date.Format "2006-01-02"  }}'>{{ .Date.Format "Jan 2, 2006" }}</time>
                 </p>
             </header>
             <div class="col-lg-10 offset-lg-1">

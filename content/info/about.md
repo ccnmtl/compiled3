@@ -33,4 +33,4 @@ Unless otherwise noted, the content on this blog is licensed under a
 
 -----------
 
-If you have any questions about CompilED, email editor _Zarina_ at <a href="mailto:zarina@zarina@columbia.edu">zarina@columbia.edu<a/>.
+If you have any questions about CompilED, email editor _Zarina_ at <a href="mailto:zarina@zarina@columbia.edu">zarina@columbia.edu</a>.

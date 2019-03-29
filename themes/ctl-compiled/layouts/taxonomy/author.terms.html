@@ -1,25 +1,25 @@
 <!doctype html>
 <html lang="en">
 {{ partial "header.html" . }}
-<body itemscope itemtype="http://schema.org/BlogPosting">
+<body>
 {{ partial "banner.html" . }}
-    <main class="container" id="maincontent">
-        <h1 class="list-view-title">CompilED Authors</h1>
+    <main class="container" id="maincontent" aria-labelledby="pageContentTitle">
+        <h1 class="list-view-title" id="pageContentTitle">CompilED Authors</h1>
         {{ $data := .Data }}
         {{ $team := index .Site.Data.authors "ctldev" }}
-        <section class="author-cards">
+        <section class="author-cards" aria-label="Author list">
             <div class="row mt-4">
                 {{ range $key, $value := .Site.Data.authors }}
                     {{ $allauthors := index $.Site.Data.authors $key}}
                     {{ if (and (ne $key "ctldev") (eq $allauthors.status "current")) }}
-                    <div class="col-sm-6 col-lg-4 author-card" tabindex="0">
+                    <div class="col-sm-6 col-lg-4 author-card" tabindex="0" aria-label="Author card">
                         <div class="main-content">
-                            <div class="author-headshot"><img src="/img/authors/{{ .headshot }}" alt="" aria-hidden="true" /></div>
+                            <div class="author-headshot"><img src="/img/authors/{{ .headshot }}" alt="Photo of {{ .firstName }}" aria-hidden="true" /></div>
                             <dl class="text-center">
-                                <dt class="h2"><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{ .name }}</a></dt>
+                                <dt class="h2" id="{{ $key }}"><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{ .name }}</a></dt>
                                     <dd class="mb-4">{{ .jobTitle }}</dd>
-                                    <dd class="read-prompt d-inline border-right border-secondary p-0 pr-2"><a href="/{{ $data.Plural }}/{{ $key | urlize }}">Article list</a></dd>
-                                    <dd class="read-prompt d-inline p-0 pl-1"><a href="mailto:{{ .email }}">Email<span class="sr-only">{{ .email }}</span></a></dd>
+                                    <dd class="read-prompt d-inline border-right border-secondary p-0 pr-2"><a href="/{{ $data.Plural }}/{{ $key | urlize }}" aria-labelledby="{{ $key }}">Article list</a></dd>
+                                    <dd class="read-prompt d-inline p-0 pl-1"><a href="mailto:{{ .email }}" aria-label="Email: {{ .email }}"><span aria-hidden="true">Email</span></a></dd>
                             </dl>
                         </div>
                     </div>
@@ -38,13 +38,13 @@
             </div>
         </section>
         <hr />
-        <section class="contrib-authors">
-            <h2>Other contributors</h2>
+        <section class="contrib-authors" aria-labelledby="otherAuthors">
+            <h2 id="otherAuthors">Other contributors</h2>
             <ul class="mt-4">
             {{ range $key, $value := .Site.Data.authors }}
                 {{ $allauthors := index $.Site.Data.authors $key}}
                 {{ if (and (ne $key "ctldev") (eq $allauthors.status "inactive")) }}
-                <li>{{ .name }} (<a href="/{{ $data.Plural }}/{{ $key | urlize }}">Article list</a>)</li>
+                <li>{{ .name }} (<a href="/{{ $data.Plural }}/{{ $key | urlize }}" aria-label="Articles by {{ .firstName }}"><span aria-hidden="true">Article list</span></a>)</li>
                 {{ end }}
             {{ end }}
             </dl>

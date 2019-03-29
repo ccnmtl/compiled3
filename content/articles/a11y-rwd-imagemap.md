@@ -62,7 +62,10 @@ content.
 In this post, I’d like to share with you the process that I went through with
 one particular piece of content—an imagemap—in one of the module.
 
-{{< figure src="/img/assets/old-phtc.jpg" class="text-center centered bordered responsive" alt="" caption="Image map in the old PHTC module" link="/examples/phtc-imagemap/" >}}
+{{< figure
+    src="/img/assets/old-phtc.jpg"
+    class="bordered"
+    caption="Image map in the old PHTC module" link="/examples/phtc-imagemap/" >}}
 
 This is an imagemap of an infographic explaining the CDC framework
 (__[see it in action](/examples/phtc-imagemap/)__).
@@ -91,7 +94,9 @@ intended meaning was, and how learners were expected to learn from this
 diagram. What were the assumptions about the visual shapes serving as cues for
 this diagram? Why was it designed this way?
 
-{{< figure src="/img/assets/meaning-phtc.jpg" class="text-center centered responsive" alt="" >}}
+{{< figure
+    src="/img/assets/meaning-phtc.jpg"
+    alt="Visual representation of the preceeding paragraph" >}}
 
 The arrows in the diagram show directional movement. The positions of the
 hotspots signify sequence and order, the hexagonal connectors construct a
@@ -119,7 +124,9 @@ bracelet and rearrange the hotspots linearly, and place the information text
 box below the linear hotspots, the “beads” become headings of tabs. When user
 clicks a tab, the associated explanation is revealed in the text box.
 
-{{< figure src="/img/assets/repack-phtc.jpg" class="text-center centered responsive" alt="" >}}
+{{< figure
+    src="/img/assets/repack-phtc.jpg"
+    alt=""Visual representation of the preceeding paragraph" >}}
 
 This was an appealing design for the following reasons:
 
@@ -165,7 +172,9 @@ the new version increased from 75% to 93%. It is a little shy of the perfect
 score because the color contrast of the diagram didn’t quite meet the WCAG
 guidelines. This is still a work in progress.
 
-{{< figure src="/img/assets/lighthouse-phtc.png" class="text-center centered responsive" alt="" >}}
+{{< figure
+    src="/img/assets/lighthouse-phtc.png"
+    alt=""Visual representation of the preceeding paragraph" >}}
 
 Lighthouse and Axe are accessibility tests for codes and technology. But did
 the new arrangement of content make sense cognitively in assistive devices and
@@ -193,7 +202,9 @@ influencing pieces are pedagogy, the cognitive process, the user-end choices
 and control, and the awareness of the comparable experiences of differing
 abilities.
 
-{{< figure src="/img/assets/a11y-pieces.png" class="text-center centered responsive" alt="" >}}
+{{< figure
+    src="/img/assets/a11y-pieces.png"
+    alt=""Visual representation of the preceeding paragraph" >}}
 
 The awareness of the learning process informs us how we should code to ensure
 that the intended pedagogy can be processed by everyone, with differing
