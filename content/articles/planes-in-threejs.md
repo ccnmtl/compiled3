@@ -11,7 +11,7 @@ poster: "hilite-planes-in-threejs.jpg"
 socmediaimg: ""
 hiliteimg: "hilite-planes-in-threejs.jpg"
 poster_sourceurl: ""
-poster_source: "Something"
+poster_source: ""
 ---
 Three.js provides the [Plane](https://threejs.org/docs/#api/en/math/Plane)
 concept for representing two dimensional surfaces that extend infinitely in

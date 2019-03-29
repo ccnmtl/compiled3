@@ -3,8 +3,8 @@
 {{ partial "header.html" . }}
 <body itemscope itemtype="http://schema.org/Blog">
 {{ partial "banner.html" . }}
-    <main class="container" id="maincontent">
-        <section class="latest-post">
+    <main class="container" id="maincontent" aria-label="Main content">
+        <section class="latest-post" aria-labelledby="sectionlatest">
             <article itemscope itemtype="http://http://schema.org/BlogPosting">
                 {{ range first 1 ( where .Site.Pages "Type" "post" ) }}
                 <div class="row">
@@ -14,8 +14,8 @@
                         </figure>
                     </div>
                     <div class="col-lg-5">
-                        <h2>Latest article</h2>
-                        <h3><a href="{{ .URL }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
+                        <h2 id="sectionlatest">Latest article</h2>
+                        <h3 id="{{ .UniqueID }}"><a href="{{ .URL }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
                         <p class="post-byline" itemprop="author" itemscope itemtype="http://schema.org/Person">By 
                         {{ range $i, $e := .Params.authors }}{{if $i}}, {{end}}<a href='{{ "/authors/" | relLangURL }}{{ . | urlize }}' itemprop="url"><span itemprop="name">{{ (index $.Site.Data.authors $e).name }}</span></a>{{ end }}
                         </p>
@@ -31,20 +31,20 @@
                         {{ range $i, $e := .Params.tags }}{{if $i}}, {{end}}
                         <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" rel="tag"><span itemprop="keywords">{{$e}}</span></a>{{ end }}
                         </p>{{ end }}
-                        <a href='{{ .URL }}' class="read-prompt">Read article <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a>
+                        <a href='{{ .URL }}' class="read-prompt" aria-labelledby="{{ .UniqueID }}">Read article <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 {{ end }}
             </article>
         </section>
 
-        <section class="recent-posts">
-            <h2>Other recent articles</h2>
+        <section class="recent-posts" aria-labelledby="sectionrecent">
+            <h2 id="sectionrecent">Other recent articles</h2>
             <div class="row mt-4">
                 {{ range first 4 ( after 1 ( where .Site.Pages "Type" "post" ) ) }}
                 <div class="col-md-6 recent-post">
                     <article itemscope itemtype="http://http://schema.org/BlogPosting">
-                        <h3><a href="{{ .URL }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
+                        <h3 id="{{ .UniqueID }}"><a href="{{ .URL }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
                         <p class="post-byline" itemprop="author" itemscope itemtype="http://schema.org/Person">By 
                         {{ range $i, $e := .Params.authors }}{{if $i}}, {{end}}<a href='{{ "/authors/" | relLangURL }}{{ . | urlize }}' itemprop="url"><span itemprop="name">{{ (index $.Site.Data.authors $e).name }}</span></a>{{ end }}
                         </p>
@@ -58,14 +58,14 @@
                         {{ range $i, $e := .Params.tags }}{{if $i}}, {{end}}
                         <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" rel="tag"><span itemprop="keywords">{{$e}}</span></a>{{ end }}
                         </p>{{ end }}
-                        <a href='{{ .URL }}' class="read-prompt">Read more <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a>
+                        <a href='{{ .URL }}' class="read-prompt" aria-labelledby="{{ .UniqueID }}">Read more <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a>
                     </article>
                 </div>
                 {{ end }}
             </div>
         </section>
 
-        <section class="more-posts">
+        <section class="more-posts" aria-label="See all articles">
             <a href="/articles/" class="read-prompt">See all articles <i class="fas fa-chevron-right ml-2" aria-hidden="true"></i></a>
         </section>
 

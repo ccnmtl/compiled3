@@ -3,7 +3,7 @@
 {{ partial "header.html" . }}
 <body itemscope itemtype="http://schema.org/BlogPosting" class="default-list-view">
 {{ partial "banner.html" . }}
-<main class="container" id="maincontent">
+<main class="container" id="maincontent" aria-labelledby="pageContentTitle">
     {{ $authorname := .Title | lower }}
     {{ $authordata := index .Site.Data.authors $authorname }}
 
@@ -12,13 +12,13 @@
         <div class="author-headshot"><img src="/img/authors/{{ $authordata.headshot }}" aria-hidden="true" alt="Photo of {{ $authordata.firstName }}" /></div>
         {{ end }}
         <div>
-            <h1 class="list-view-title author-name">{{ $authordata.name }}</h1>
+            <h1 class="list-view-title author-name" id="pageContentTitle">{{ $authordata.name }}</h1>
             {{ if eq $authordata.status "current" }}
             <p class="intro">{{ $authordata.firstName }} is the {{ $authordata.jobTitle }} at the Center for Teaching and Learning. {{ $authordata.bioLine }}</p>
             {{ else }}
             <p class="intro">{{ $authordata.firstName }} was the {{ $authordata.jobTitle }} at the Center for Teaching and Learning.</p>            
             {{ end }}
-            <ul class="nav author-network justify-content-center justify-content-lg-start">
+            <ul class="nav author-network justify-content-center justify-content-lg-start" aria-label="Other links for {{ $authordata.firstName }}">
                 {{ if $authordata.email }}
                 <li class="nav-item network-link">
                 <a href="mailto:{{ $authordata.email }}" aria-label="Email: {{ $authordata.email }}"><i class="fas fa-envelope" aria-hidden="true"></i></a>

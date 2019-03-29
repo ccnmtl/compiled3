@@ -1,6 +1,6 @@
     <footer>
-        <nav class="d-flex justify-content-center compiled-moreinfo">
-            <ul class="nav">
+        <nav class="d-sm-flex justify-content-center compiled-moreinfo" aria-label="Links for more information">
+            <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link" href="/info/about/">About CompilED</a>
                 </li>
@@ -9,15 +9,15 @@
                 </li>
             </ul>
         </nav> 
-        <section class="d-sm-flex justify-content-center follow-links">
-                <h2>Follow CompilED:</h2>
+        <aside class="d-sm-flex justify-content-center follow-links" aria-labelledby="sectionfollow">
+                <h2 id="sectionfollow">Follow CompilED:</h2>
                 <ul class="nav justify-content-center">
                     <li class="nav-item"><a href="{{ .Site.BaseURL }}index.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS Feed"><i class="fas fa-rss" aria-hidden="true"></i></a></li>
                     <li class="nav-item"><a href="http://github.com/ccnmtl/" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fab fa-github" aria-hidden="true"></i></a></li>
                     <li class="nav-item"><a href="https://twitter.com/CTLDevTeam/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
                 </ul>
-        </section>
-        <section class="container compiled-info">
+        </aside>
+        <section class="container compiled-info" aria-label="What is Compiled?">
         <p itemprop="about">CompilED is a collection of reflections and comments by the <a href="/authors/">software developers</a> at Columbia's Center for Teaching and Learning. These views are rooted in our professional and personal experiences developing educational technology. Browse our <a href="/articles/">posts</a>, and learn more <a href="/info/about/">about us</a>.</p>
 
         <p>Unless otherwise noted, the content on this blog is licensed under a <a itemprop="license" rel="license noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> license. CompilED source code is on Github with <a itemprop="license" rel="license noopener noreferrer" href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a> license.</p>
