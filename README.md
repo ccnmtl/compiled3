@@ -1,2 +1,22 @@
-# compiled3
-CompilED blog, on Hugo 0.47 (2019)
+![CompiLED](https://raw.githubusercontent.com/ccnmtl/compiled/master/static/img/banner-front-logo.png)  
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ccnmtl/compiled3.svg)](https://greenkeeper.io/)
+
+**URL:** https://compiled.ctl.columbia.edu
+
+CompilED is a collection of posts by the
+[software developers](https://compiled.ctl.columbia.edu/authors/) at
+Columbia University’s
+[Center for Teaching and Learning](http://ctl.columbia.edu) (CTL).
+These views are rooted in our professional and personal experiences developing
+educational technology. These posts are directed at software developers and
+architects, UX/UI designers, and media/video producers of all flavors, but
+everyone is welcome.
+
+CompilED is built with [Hugo](https://gohugo.io/) 0.47 by [Zarina Mustapha](http://ctl.columbia.edu/about/team/mustapha/).
+
+Unless otherwise noted, the content on this blog is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. CompilED source code is on Github with
+[GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+
+CompilED's [Accessibility Statement](https://compiled.ctl.columbia.edu/info/accessibility/).
