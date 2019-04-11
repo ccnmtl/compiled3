@@ -3,7 +3,7 @@
 {{ partial "header.html" . }}
 <body itemscope itemtype="http://schema.org/Blog">
 {{ partial "banner.html" . }}
-    <main class="container" id="maincontent" aria-label="Main content">
+    <main class="container" id="maincontent" aria-label="List of latest and recent articles">
         <section class="latest-post" aria-labelledby="sectionlatest">
             <article itemscope itemtype="http://http://schema.org/BlogPosting">
                 {{ range first 1 ( where .Site.Pages "Type" "post" ) }}
