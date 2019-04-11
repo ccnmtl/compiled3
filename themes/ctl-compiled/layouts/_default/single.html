@@ -28,7 +28,7 @@
                 {{ range $i, $e := .Params.tags }}{{if $i}}, {{end}}
                 <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" rel="tag"><span itemprop="keywords">{{$e}}</span></a>{{ end }}
                 </p>{{ end }}
-                <div class="d-flex socmedia-share">
+                <div class="d-flex socmedia-share d-print-none">
                     <h2>Share<span class="sr-only"> this post</span>:</h2>
                     <ul class="nav d-print-none">
                         <li class="nav-item">
@@ -53,7 +53,13 @@
             <div class="bookend">
             <span class="sr-only">End of this article.</span>
             <i class="fas fa-lg fa-ellipsis-h" aria-hidden="true"></i>
-            <i class="fas fa-2x fa-cat" aria-hidden="true"></i>
+            <i class="fas fa-2x fa-
+            {{- if .Params.bookendanimal -}}
+                {{- .Params.bookendanimal -}}
+            {{- else -}}
+                cat
+            {{- end -}}
+            " aria-hidden="true"></i>
             <i class="fas fa-lg fa-ellipsis-h" aria-hidden="true"></i>
             </div>
             </div>
