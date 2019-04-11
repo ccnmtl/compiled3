@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-![CompiLED](https://raw.githubusercontent.com/ccnmtl/compiled/master/static/img/banner-front-logo.png)  
+![CompiLED](https://raw.githubusercontent.com/ccnmtl/compiled3/master/static/img/banner-readme.png)  
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/ccnmtl/compiled3.svg)](https://greenkeeper.io/)
 
