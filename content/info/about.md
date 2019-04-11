@@ -1,12 +1,12 @@
 ---
 title: "About CompilED"
-date: 2019-03-28
+date: 2019-03-31
 type: "info"
-poster: "poster-about.jpg"
+poster: "poster-about.png"
 socmediaimg: ""
 hiliteimg: ""
-poster_sourceurl: "https://www.instagram.com/p/BUEdfYAgeJP/"
-poster_source: "Zarina Mustapha"
+poster_sourceurl: ""
+poster_source: ""
 ---
 
 CompilED is a collection of posts by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at software developers and architects, UX/UI designers, and media/video producers of all flavors, but everyone is welcome.
