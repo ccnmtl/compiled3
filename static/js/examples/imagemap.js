@@ -10,7 +10,7 @@ jQuery(document).ready(function() {
     }
 
     var staticDir =
-        'https://s3.amazonaws.com/ccnmtl-phtc-static-prod/media/img/' +
+        '/img/examples/' +
         'cdcframework/framework_';
 
     for (var i=1; i < 11; i++) {

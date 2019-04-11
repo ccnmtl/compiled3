@@ -8,7 +8,7 @@ js_file1: "/js/examples/imagemap.js"
 
 <div class="text-center">
 <p>Hover over each step in the process and each of the four standards for more information.</p>
-<img name="framework" src="https://s3.amazonaws.com/ccnmtl-phtc-static-prod/media/img/cdcframework/framework_00.jpg" width="639" height="378" usemap="#framework_map" border="0">
+<img name="framework" src="/img/examples/cdcframework/framework_00.jpg" width="639" height="378" usemap="#framework_map" border="0">
 <!--image map-->
 <map name="framework_map">
 <area alt="Accuracy" coords="119,234,224,251" class="framework10" shape="rect" title="Accuracy">
