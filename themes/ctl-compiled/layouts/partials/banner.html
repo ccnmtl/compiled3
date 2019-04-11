@@ -1,3 +1,4 @@
+    <script src="https://search.sites.columbia.edu/cu-privacy-notice/cu-privacy-notice.js"></script>    
     <header class="site-header">
         {{ if .IsHome }}
         <h1 class="sr-only"><span itemprop="name">CompilED</span>: Home Page</h1>
@@ -5,13 +6,13 @@
         <a href="#maincontent" class="skippy focus-none sr-only sr-only-focusable">
             <span class="skippy-text">Skip to main content</span>
         </a>
-        <nav class="navbar navbar-expand-md container" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Site main navigation">
+        <nav class="navbar navbar-expand-md container" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Compiled site">
             <a href="{{ .Site.BaseURL }}" itemprop="url" class="navbar-brand" aria-label="Go to CompilED homepage"><span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject"><img src='{{ "img/banner-front-logo.svg" | absURL }}' itemprop="url"  alt="CompilED logo" /></span><span aria-hidden="true" class="sr-only" itemprop="name">CompilED Blog</span></a>
-            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarCompiled" aria-controls="navbarCompiled" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarCompiled">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item{{ if eq .Title "Articles" }} active{{ end }}">
                     <a href="{{ .Site.BaseURL }}articles/" itemprop="url" class="nav-link"><span itemprop="name">Articles</span>{{ if eq .Title "Articles" }} <span class="sr-only">(current)</span>{{ end }}</a>

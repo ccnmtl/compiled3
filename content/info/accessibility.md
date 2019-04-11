@@ -1,6 +1,6 @@
 ---
 title: "Accessibility Statement"
-date: 2019-03-27
+date: 2019-03-31
 type: "info"
 ---
 The software development team at Columbia CTL is committed to making CompilED
@@ -19,27 +19,23 @@ CompilED has been audited and evaluated with the assessment tools mentioned in
 this statement. Some parts of the content do not fully conform to the WCAG 2.0
 standards:
 
-* Contrast ratios (link-to-text, text-to-background) for some elements are
-lower than recommended values.
 * Third-party content (external videos, embedded documents, images) used in
 CompilED may not be fully accessible.
 * Articles published prior to 2016 may not be fully compliant.
 
-We will continue to work on fixing these issues.
-
 ## Assessment approach
 
-We assessed and tested CompilED using the following tools. Nearly all of the
-pages show minor to no violations of the accessibility standards.
+We assessed and tested CompilED using the following accessibility scanners.
+Nearly all of the pages show minor to no violations of the accessibility standards.
 
-* [Axe](https://www.deque.com/axe/) web accessibility testing tool by 
-[Deque Systems](https://www.deque.com)
+* [Siteimpove](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc)
+accessibility checker, by [Siteimprove](https://siteimprove.com)
 * [Wave](https://wave.webaim.org/extension/) web accessibility evaluation tool
 by [WebAIM](https://webaim.org/)
+* [Axe](https://www.deque.com/axe/) web accessibility testing tool by 
+[Deque Systems](https://www.deque.com)
 * [VoiceOver](https://www.apple.com/accessibility/mac/vision/), the screen
 reader by Apple
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse/), an
-open-source, automated auditor by [Google](https://www.google.com/accessibility/)
 
 ## Feedback
 
