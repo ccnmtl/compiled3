@@ -127,7 +127,7 @@ This experience has deepened my understanding of accessibility and inclusive
 design principles. There is still a lot to learn, and there are many more
 accessibility challenges to solve in web applications design and development,
 especially for complex web-based tools, data visualization, mapping, to name
-a few. I’m looking forward to look at these issues and hopefully coming up with
+a few. I look forward to exploring at these issues and coming up with
 creative solutions for them.
 
 &#42; &#42; &#42;
