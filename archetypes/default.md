@@ -12,4 +12,5 @@ socmediaimg: ""
 hiliteimg: ""
 poster_sourceurl: ""
 poster_source: ""
+bookendanimal: ""
 ---

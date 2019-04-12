@@ -9,7 +9,7 @@ poster_sourceurl: ""
 poster_source: ""
 ---
 
-CompilED is a collection of posts by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at software developers and architects, UX/UI designers, and media/video producers of all flavors, but everyone is welcome.
+_CompilED_ is a collection of posts by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at software developers and architects, UX/UI designers, and media/video producers of all flavors, but everyone is welcome.
 
 -----------
 
@@ -23,14 +23,16 @@ Our project teams are passionate about Columbia’s mission and maintain a playf
 
 ## The Code and Content
 
-Our [team](/authors/), as well as most of our projects are accessible, responsive and open. You can follow our reflections on the technical aspects of the Center’s work here in CompilED and on [Github](http://github.com/ccnmtl).
+Our [team](/authors/), as well as most of our projects are accessible, responsive and open. You can follow our reflections on the technical aspects of the Center’s work here in _CompilED_ and on [Github](http://github.com/ccnmtl).
 
-CompilED is accessible. Please read the [Accessibility Statement](/info/accessibility/).
+_CompilED_ is built with [Hugo](https://gohugo.io), a general-purpose static site generator that renders HTML files as output from content files and layout templates. The project repository is available on [Github](https://github.com/ccnmtl/compiled3/).
+
+_CompilED_ is accessible. Please read the [Accessibility Statement](/info/accessibility/).
 
 Unless otherwise noted, the content on this blog is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. CompilED source code is on Github with
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. _CompilED_ source code is on Github with
 [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
 -----------
 
-If you have any questions about CompilED, email editor _Zarina_ at <a href="mailto:zarina@zarina@columbia.edu">zarina@columbia.edu</a>.
+If you have any questions about _CompilED_, email editor _Zarina_ at <a href="mailto:zarina@zarina@columbia.edu">zarina@columbia.edu</a>.
