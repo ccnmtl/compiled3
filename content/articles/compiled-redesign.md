@@ -5,8 +5,8 @@ type: "post"
 authors: ["mustapha"]
 tags: ["accessibility","inclusive design"]
 lede: "I restructured and redesigned the CTL DevTeam’s website CompilED to meet
-the web accessibility standards, and to improve its overall user experience
-inclusively on all devices."
+web accessibility standards, and to improve its overall user experience on all
+devices."
 shortlede: "This site’s latest iteration has improved design and WCAG 2.0
 compliance."
 poster: "poster-compiled-v3.jpg"
@@ -18,8 +18,8 @@ bookendanimal: "dragon"
 ---
 
 In March, I restructured and redesigned the CTL DevTeam’s website _CompilED_ to
-meet the web accessibility standards, and to improve its overall user
-experience inclusively on all devices.
+meet web accessibility standards, and to improve its overall user
+experience on all devices.
 
 This latest iteration of _CompilED_ follows the
 [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
@@ -35,7 +35,7 @@ integration of accessibility thinking, process, and policy across different
 groups in the whole department, as part of our commitment to accessibility,
 universal design, and inclusion in higher education.
 
-[_CompilED_ redesign in 2016](/articles/rebuilding-compiled/) afforded some
+The [_CompilED_ redesign in 2016](/articles/rebuilding-compiled/) afforded some
 accessibility since my grasp of WCAG standards was limited at the time. Three
 years later with more experience and grounded understanding, I redesigned
 _CompilED_ as an exercise to develop a website that conforms very well to the
@@ -56,7 +56,7 @@ reordering was done so that the structure on each page make sense to all users
 regardless of their choice of devices—desktop, mobile, or assistive
 technologies.
 
-I’ve written on similar design process for the
+I’ve written on similar design processes for the
 [redesign of PHTC image map](/articles/a11y-rwd-imagemap/) and
 [two Dental School projects](/articles/deconstructing-accessibility/).
 
@@ -65,12 +65,12 @@ I’ve written on similar design process for the
 In her demonstration on 
 [how a screen reader user accesses the web](https://www.smashingmagazine.com/2019/02/accessibility-webinar/),
 accessibility engineer [Léonie Watson](https://tink.uk/) recommended using
-semantic HTML and ARIA attributes to improve content accessibility and clarify
-meaning for content groups. They serve as sign posts to help users to chart a
-mental model of a page. I was already using HTML5 landmark regions (`header`,
-`nav`, `main`, `section`, `article`, `footer`) in _CompilED_. This time, I paid
-more attention to the ARIA labels to identify components on the pages so that
-they can be read by screen readers. 
+semantic HTML and ARIA attributes to improve content accessibility and to clarify
+meaning for content groups. They serve as sign posts to help users chart a
+mental model of a page. In _CompilED_, I already used HTML5 landmark regions
+(`header`, `nav`, `main`, `section`, `article`, `footer`).
+This time, I paid more attention to ARIA labels to identify components on the
+pages so that they can be read by screen readers. 
 
 ### Keyboard accessibility
 
@@ -94,12 +94,11 @@ WebAIM also has a
 and images.
 
 _CompilED_ also uses `og:image:alt` and `twitter:image:alt` structured
-properties to provide descriptions images used for social media sharing.
+properties to provide descriptions for social media poster images.
 
 ### Audits and limitations
 
-I used the following scanning tools to test accessibility compliance for
-_CompilED_:
+I used the following scanning tools to test accessibility compliance for _CompilED_ :
 
 *
 [Siteimpove](https://chrome.google.com/webstore/detail/siteimprove-
@@ -118,11 +117,11 @@ The scan shows some color contrast errors, but for the most part, _CompilED_
 ## Coda
 
 Web content accessibility isn’t just about technology. _CompilED_ could have
-passed all the scanning audits and still wouldn’t be very usefully if I didn’t
+passed all the scanning audits and still wouldn’t be very useful if I didn’t
 understand the user experience with screen readers or other assistive
-technologies. We should make POUR (Perceivable, Operable, Understandable,
-Robust) design regarding digital experience and accessibility for _people of
-all abilities_.
+technologies. We should make POUR choices: we design and develop digital 
+experience that __P__erceivable, __O__perable, __U__nderstandable, and 
+__R__obust, for _people of all abilities_.
 
 This experience has deepened my understanding of accessibility and inclusive
 design principles. There is still a lot to learn, and there are many more
@@ -138,4 +137,8 @@ site generator that renders HTML files as output from content files and layout
 templates. _CompilED_ repository is available on
 [Github](https://github.com/ccnmtl/compiled3/).
 
+The software development team at Columbia CTL is committed to making _CompilED_
+content inclusive and accessible for everyone of all abilities. We welcome
+your feedback on the accessibility of _CompilED_. Please email us at
+<a href="mailto:ctl-accessibility@columbia.edu">ctl-accessibility@columbia.edu</a>
 
