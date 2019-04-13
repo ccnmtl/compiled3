@@ -82,7 +82,7 @@ visual focus styling (`hover`, `focus`, `active`), thanks to the
 ### Alt text for images and social media
 
 While it is common knowledge that alternative text for images is necessary,
-what is less know is what sort of description should be used for the `alt`
+what is less known is what sort of description should be used for the `alt`
 text. To put simply, image description depends on context.
 
 All images on _CompilED_ articles how have `alt` attribute built in the
@@ -127,7 +127,7 @@ This experience has deepened my understanding of accessibility and inclusive
 design principles. There is still a lot to learn, and there are many more
 accessibility challenges to solve in web applications design and development,
 especially for complex web-based tools, data visualization, mapping, to name
-a few. I look forward to exploring at these issues and coming up with
+a few. I look forward to exploring these issues and coming up with
 creative solutions for them.
 
 &#42; &#42; &#42;
