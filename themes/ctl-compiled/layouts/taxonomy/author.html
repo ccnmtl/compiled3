@@ -55,12 +55,14 @@
 
 
     {{ $paginator := .Paginate .Data.Pages }}
+    <p class="author-postnum mb-4 text-left"><i class="fas fa-lg fa-cat" aria-hidden="true"></i> Total: {{ len .Data.Pages }} articles</p>
 
     {{ range $paginator.Pages }}
+    {{ if (eq .Type "post") }}
     {{ .Render "summary" }}
     {{ end }}
+    {{ end }}
 
-    <p class="author-postnum"><i class="fas fa-lg fa-cat" aria-hidden="true"></i> Total: {{ len .Data.Pages }} articles</p>
     {{partial "pagination.html" .}}
 </main>
 {{ partial "footer.html" . }}
