@@ -1,5 +1,5 @@
 ---
-title: "Delivering data to a Vue component"
+title: "Delivering Data to a Vue Component"
 date: 2019-05-05
 type: "post"
 authors: ["dreher"]
@@ -7,22 +7,22 @@ tags: ["django","vue","python","javascript","json"]
 lede: "Delivering data from server-side to client-side is pretty straightforward. Generally, you just throw together an API, RESTful or otherwise. When working in the Django framework, there are a couple of other options to consider, that might be easier and solve a few problems."
 shortlede: "Exploring efficient approaches to get data clientside with Django and Vue."
 poster: "poster-vue-data.jpg"
-socmediaimg: ""
+socmediaimg: "socmediaimg-vue-data.jpg"
 hiliteimg: "poster-vue-data.jpg"
 poster_sourceurl: "https://unsplash.com/photos/fb7yNPbT0l8"
 poster_source: "Photo by Mathyas Kurmann on Unsplash"
 bookendanimal: "spider"
 ---
 
-# Special delivery
+## Special delivery
 
 Delivering data from server to client is pretty straightforward. Generally, you just throw together an API, RESTful or otherwise. When working in the Django framework, there are a couple of other options to consider, that might be easier and solve a few problems. Here are two ways I've used to get data to the client.
 
-## Some background
+### Some background
 
 Rather than create a standalone Vue application, I have (so far) chosen to intertwine Vue functionality into Django templates. I feel this approach capitalizes on the power of both frameworks. Two examples for review are [Writ Large](https://github.com/ccnmtl/writlarge) and [Attaining Higher Education](https://github.com/ccnmtl/ahemap). In both applications, the Vue components and sub-components required data from the server.
 
-# Rendering data
+## Rendering data
 
 Django's MVC framework allows templates easy access to server-side data via the view context. So, why not just render a context variable directly into a Javascript variable? The data is immediately available and a secondary API call is eliminated. Super efficient right?
 
@@ -41,7 +41,7 @@ This example shows a few different ways to transfer data to a Javascript-friendl
 
 Vue and other clientside code can then access the WritLarge instance to retrieve data.
 
-# A new way to render
+## A new way to render
 
 In Django 2.1, we received an even simpler solution in the form of the `json_script` templatetag. This templatetag "Safely outputs a Python object as JSON, wrapped in a `<script>` tag, ready for use with JavaScript." The `someData` variable can now be transformed to:
 
@@ -56,7 +56,7 @@ this then outputs
     </script>
 
 
-# Why not just use REST?
+## Why not just use REST?
 
 Using Django's capabilities to get the data to the client faster seems like a no-brainer.
 
