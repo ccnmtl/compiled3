@@ -22,13 +22,12 @@ bookendanimal: "spider"
 
 Delivering data from server to client is pretty straightforward. Generally, you
 just throw together an API, RESTful or otherwise. When working in the Django
-framework, there are a couple of other options to consider, that might be
-easier and solve a few problems. Here are two ways I've used to get data to the
+framework, there are other data delivery options to consider. Here are two ways I've used to get data to the
 client.
 
 ### Some background
 
-Rather than create a standalone Vue application, I have (so far) chosen to
+Rather than create a standalone Vue application, I've chosen, so far, to
 intertwine Vue functionality into Django templates. I feel this approach
 capitalizes on the power of both frameworks. Two examples for review are
 [Writ Large](https://github.com/ccnmtl/writlarge) and
@@ -58,7 +57,7 @@ This example shows a few different ways to transfer data to a
 Javascript-friendly structure. Note that the JSON data must be escaped, then
 parsed to avoid encoding and security issues.
 
-Vue and other clientside code can then access the WritLarge instance to
+Vue and other clientside code can then access the Writ Large instance to
 retrieve data.
 
 ## A new way to render
@@ -84,10 +83,10 @@ this then outputs
 Using Django's capabilities to get the data to the client faster seems like a
 no-brainer.
 
-For one, there's simply no need to implement a data api and make sure it is
+First, there's simply no need to implement a data API and make sure it is
 locked down properly. Less code is always a good thing.
 
-For two, asynchronous data calls initiated by Vue or other clientside
+Second, asynchronous data calls initiated by Vue or other clientside
 components can cause a few issues. Even with the fastest APIs, the data is
 arriving at the client after the initial render. To deal with this, all the
 clientside code needs to be prepared for null or empty data structures. Complex
@@ -97,7 +96,7 @@ displaying neatly with or without data.
 
 The big "but" to all of this is when the clientside components need to pass
 data back upstream. Then, of course, the client must post back to the server
-via a well-known api. I've gone back and forth how I feel about delivering data
+via a well-known API. I've gone back and forth how I feel about delivering data
 to the client one way and updating it in another way. That feels a bit messy
 and inconsistent. So far, I've gone full REST in these cases, but the problems
 outlined above have definitely bitten me.
