@@ -46,7 +46,7 @@
                     </ul>
                 </div>
             </header>
-            <div class="col-lg-10 offset-lg-1">
+            <div class="col-lg-10 offset-lg-1 entry-content-col">
             <div class="entry-content">
             {{ .Content }}
             </div>
@@ -62,6 +62,7 @@
             " aria-hidden="true"></i>
             <i class="fas fa-lg fa-ellipsis-h" aria-hidden="true"></i>
             </div>
+            <p class="d-none d-print-block article-url-print">Printed from: {{ .Permalink }}</p>
             </div>
         </article>
     </main>
