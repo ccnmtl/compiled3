@@ -1,18 +1,4 @@
 {
-    "yellambhatla": {
-        "name": "Shashi Yellambhatla",
-        "firstName": "Shashi",
-        "lastName": "Yellambhatla",
-        "jobTitle": "Associate Director of Software Development and Project Management",
-        "jobLink": "https://ctl.columbia.edu/about/team/yellambhatla/",
-        "bioLine": "He is passionate about establishing IT strategies, setting goals and priorities for organizations. He also loves traveling and  basketball.",
-        "email": "sy2787@columbia.edu",
-        "github": "",
-        "linkedin": "",
-        "twitter": "",
-        "headshot": "shashi.png",
-        "status": "current"
-    },
     "nyby": {
         "name": "Nik Nyby",
         "firstName": "Nik",
@@ -37,7 +23,7 @@
         "email": "zarina@columbia.edu",
         "github": "",
         "linkedin": "",
-        "twitter": "",
+        "twitter": "https://twitter.com/zarinamustapha/",
         "www": "",
         "headshot": "zmustapha.png",
         "status": "current"
@@ -86,6 +72,20 @@
         "www": "",
         "headshot": "ctldev.png",
         "status": "current"
+    },
+    "yellambhatla": {
+        "name": "Shashi Yellambhatla",
+        "firstName": "Shashi",
+        "lastName": "Yellambhatla",
+        "jobTitle": "Associate Director of Software Development and Project Management",
+        "jobLink": "",
+        "bioLine": "He is passionate about establishing IT strategies, setting goals and priorities for organizations. He also loves traveling and  basketball.",
+        "email": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/shashiyellambhatla/",
+        "twitter": "",
+        "headshot": "shashi.png",
+        "status": "inactive"
     },
     "pearson": {
         "name": "Anders Pearson",

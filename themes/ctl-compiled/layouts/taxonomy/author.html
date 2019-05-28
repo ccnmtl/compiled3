@@ -21,27 +21,27 @@
             <ul class="nav author-network justify-content-center justify-content-lg-start" aria-label="Other links for {{ $authordata.firstName }}">
                 {{ if $authordata.email }}
                 <li class="nav-item network-link">
-                <a href="mailto:{{ $authordata.email }}" aria-label="Email: {{ $authordata.email }}"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                <a href="mailto:{{ $authordata.email }}" title="Email" aria-label="Email: {{ $authordata.email }}"><i class="fas fa-envelope" aria-hidden="true"></i></a>
                 </li>
                 {{ end }}
                 {{ if $authordata.jobLink }}
                 <li class="nav-item network-link">
-                <a href="{{ $authordata.jobLink }}" aria-label="{{ $authordata.firstName }}’s CTL bio"><i class="fas fa-user" aria-hidden="true"></i></a>
+                <a href="{{ $authordata.jobLink }}" title="CTL bio" aria-label="{{ $authordata.firstName }}’s CTL bio"><i class="fas fa-user" aria-hidden="true"></i></a>
                 </li>
                 {{ end }}
                 {{ if $authordata.github }}
                 <li class="nav-item network-link">
-                <a href="https://github.com/{{- $authordata.github -}}" aria-label="Github: {{ $authordata.github }}"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://github.com/{{- $authordata.github -}}" title="Github" aria-label="Github: {{ $authordata.github }}"><i class="fab fa-github" aria-hidden="true"></i></a>
                 </li>
                 {{ end }}
                 {{ if $authordata.linkedin }}
                 <li class="nav-item network-link">
-                <a href="https://linkedin.com/in/{{- $authordata.linkedin -}}" aria-label="Linkedin: {{ $authordata.linkedin }}"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="https://linkedin.com/in/{{- $authordata.linkedin -}}" title="Linkedin" aria-label="Linkedin: {{ $authordata.linkedin }}"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
                 </li>
                 {{ end }}
                 {{ if $authordata.twitter }}
                 <li class="nav-item network-link">
-                <a href="https://twitter.com/{{- $authordata.twitter -}}" aria-label="Twitter: {{ $authordata.twitter }}"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/{{- $authordata.twitter -}}" title="Twitter" aria-label="Twitter: {{ $authordata.twitter }}"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                 </li>
                 {{ end }}
                 {{ if $authordata.www }}
