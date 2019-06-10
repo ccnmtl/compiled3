@@ -503,6 +503,11 @@ code {
     text-decoration: none;
 }
 
+.entry-content a:focus, .entry-content a:active {
+    color: #fff !important;
+    background-color: #06c !important;
+}
+
 /*.entry-content figure {
     max-width: 47rem;
 }*/
