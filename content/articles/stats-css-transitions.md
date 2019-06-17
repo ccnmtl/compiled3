@@ -14,40 +14,40 @@ poster_source: ""
 bookendanimal: ""
 ---
 For the Stats Interactives project, I was given a challenge that initially I
-wasn’t sure how to solve.  
+wasn't sure how to solve.
 
 First, some background: Stats Interactives is a set of four simulations used in
 Quantitative Analysis I at the School for International and Public Affairs.
-The course teaches statistics to future policy makers, so that they’ll have the
-skills to understand research that they would encounter in their careers.
+The course teaches statistics to future policy makers, so that they'll have the
+skills to understand research that they will encounter in their careers.
 
-For one interactive, our faculty partner Doru Cojoc invented a particularly
+For one interactive, our faculty partner Dr. Doru Cojoc invented a particularly
 insightful method for teaching students linear regression.  He found that his
 students would struggle to understand the distribution of values around the
 predicted mean in the classic X-Y representation of graphs.  By rotating the
-graphs, such that the Y axes would align vertically, it would make it easier
-for students to see the relationship.  In class, he would demonstrate this
+graphs, such that the Y axes would align vertically, such that students
+could more easily see the relationship.  In class, he would demonstrate this
 relationship statically - first showing students the graphs with the Y axes
 aligned, and then showing them in the classical view with the X axes
 aligned.
 
-The challenge given to our team was how could we help reinforce this
-juxtaposition for graphs.  Initially we thought we would show one, than the
-other - just as Prof. Cojoc would in class - one slide, than another.  Prof.
+The challenge given to our team was to reinforce the juxtaposition in the
+online environment.  Initially we thought we would show one, than the
+other - just as Dr. Cojoc would in class - one slide, than another.  Dr.
 Cojoc wanted more though. He imagined these as an animation, first showing the
 graphs vertically, then rotating them horizontally.
 
-As the developer on the project, I wasn’t sure that there was a way to do what
-he imagined. Thinking purely in terms of animation, I was thinking that I’d
+As the developer on the project, I wasn't sure that there was a way to do what
+he imagined. Thinking purely in terms of animation, I was thinking that I'd
 need to paint all the page content onto a canvas element, so that they could be
-animated.  On its face though, this wasn’t feasible.  It would make the content
-inaccessible, and there wasn’t time to add such a layer of complexity to the
-app,  I knew that the CSS spec included animations and transitions, but I
+animated.  On its face though, this wasn't feasible.  It would make the content
+inaccessible, and there wasn't time to add such a layer of complexity to the
+app.  I knew that the CSS spec included animations and transitions, but I
 thought these would not apply because the graphs in the app were rendered as
-SVG’s.  Once I took a closer look at the
+SVGs.  Once I took a closer look at the
 [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions),
 I realized that I could make use of these parts of the CSS API, and achieve
-what Doru had in mind.
+what Dr. Cojoc had in mind.
 
 The implementation that followed is composed of three parts. It uses
 [`react-transition-group`](https://reactcommunity.org/react-transition-group/)
@@ -113,9 +113,9 @@ Within a single transition, there are a few things that need to happen.
 Perhaps one element needs to rotate, perhaps another needs to rotate and
 reflect. The CSS transition syntax makes this easy to handle with `transform`
 and `transition` keywords.  I thought of `transform` as the "what" - what
-should this element do; and ‘transition’ as the "how" - specifically which
-`transform`’s should happen when.  It’s also worth mentioning how using nested
-selectors in SCSS made writing these transitions a bit more easier.  The entire
+should this element do; and `transition` as the "how" - specifically which
+`transform`'s should happen when.  It's also worth mentioning how using nested
+selectors in SCSS made writing these transitions a bit easier.  The entire
 code is too long to quote here, but it can be found in the
 [repo](https://github.com/ccnmtl/stats-interactives/blob/d91d456ebe1cb0d98d3fa5079e9c58edf51b9fb7/src/scss/components/linear_regression_model/linear-regression-model.scss#L50).
 
@@ -129,7 +129,7 @@ hard code in widths and heights for each layout to ensure that corresponding
 elements were aligned at the end of a transition.  This could be addressed by
 programatically checking the dimensions of the elements.  In this case, because
 the particular learning objectives are bound to the layout of the graphs,
-creating a responsive didn’t really make sense.
+creating a responsive didn't really make sense.
 
 The Stats Interactive site can be found
 [here](https://stats-interactives.ctl.columbia.edu/), and the Git Hub
