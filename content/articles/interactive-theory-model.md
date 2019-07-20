@@ -26,7 +26,7 @@ The DESIGN Procedure interaction started simply as a set of worksheets, then was
 ## A solid foundation
 One unique challenge centers around learning theory. In nutrition education, a set of proven theory models guide practitioners and provide a pedagogical structure. These theory models are composed of determinants, identified behaviors and attitudes that cause or impede change. The DESIGN procedure requires students to choose and customize a theory model for each lesson plan, adding and removing determinants where appropriate.
 
-On the faculty’s wishlist was a way to make these theory models come alive. In the paper-based implementation, students customized their theory models with paper and pencil. This approach proved to permissive, resulting in inaccurate models. The ensuing Qualtrics implementation could not technically offer a solution.
+On the faculty’s wishlist was a way to make these theory models come alive. In the paper-based implementation, students customized their theory models with paper and pencil. This approach proved too permissive, resulting in inaccurate models. The ensuing Qualtrics implementation could not technically offer a solution.
 
 {{< figure
     src="/img/assets/theory-model-paper.jpg"
