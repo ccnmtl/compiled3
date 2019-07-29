@@ -100,8 +100,7 @@ properties to provide descriptions for social media poster images.
 
 I used the following scanning tools to test accessibility compliance for _CompilED_ :
 
-*
-[Siteimpove](https://chrome.google.com/webstore/detail/siteimprove-
+* [Siteimprove](https://chrome.google.com/webstore/detail/siteimprove-
 accessibility/efcfolpjihicnikpmhnmphjhhpiclljc)
 accessibility checker, by [Siteimprove](https://siteimprove.com)
 * [Wave](https://wave.webaim.org/extension/) web accessibility evaluation tool
