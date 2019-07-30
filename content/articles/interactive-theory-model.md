@@ -19,17 +19,21 @@ We're working with nutrition education faculty at
 [Teacher's College](https://www.tc.columbia.edu/health-and-behavior-studies/nutrition/)
 on an interactive curriculum builder. The application models the
 [DESIGN Procedure](https://www.amazon.com/Nutrition-Education-Linking-Research-Practice/dp/1284078000),
-the brainchild of Professor Isobel Contento with the support of her colleague
-Associate Research Professor Pam Koch. Students will use this tool to create
+the brainchild of [Professor Isobel Contento](https://www.tc.columbia.edu/faculty/irc6/) with the support of her colleague
+[Associate Research Professor Pam Koch](https://www.tc.columbia.edu/faculty/pak14/). Students will use this tool to create
 more effective and engaging nutrition-related learning experiences.
 
-The DESIGN Procedure interaction started simply as a set of worksheets, then
-was migrated to Qualtrics, a survey-like environment. Our latest iteration is
+Our Senior Learning Designer [Paul Stengel](https://ctl.columbia.edu/about/team/stengel/)
+began working with Profs. Contento and Koch several 
+years ago to migrate the DESIGN Procedure from a set of worksheets
+to Qualtrics, a survey-like environment. Our latest iteration is
 [DESIGN Online](https://designonline.ctl.columbia.edu),
 a [Django](https://www.djangoproject.com/) web application using
-[Vue.js](https://vuejs.org/) as the clientside framework. This implementation
-was largely straightforward, building on similar applications that offer a
-guided learning experience. The DESIGN Procedure is fairly lengthy, so our main
+[Vue.js](https://vuejs.org/) as the clientside framework.
+
+This implementation was largely straightforward, building on similar applications that offer a
+guided learning experience. The DESIGN Procedure is fairly lengthy, so our designer
+[Marc Raymond](https://ctl.columbia.edu/about/team/raymond/)'s main
 focus was to provide an intuitive interface with clear wayfinding and progress indicators.
 
 {{< figure
