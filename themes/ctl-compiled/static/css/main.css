@@ -539,6 +539,12 @@ code {
     border: 0.0625rem solid #ddd;
 }
 
+.video-attr {
+    margin-top: -2rem !important;
+    margin-bottom: 2rem !important;
+    font-style: italic;
+}
+
 .print-alert {
     padding: 0.5rem;
     border: 1px solid #ccc;
