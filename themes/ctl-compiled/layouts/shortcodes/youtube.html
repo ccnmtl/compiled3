@@ -6,6 +6,10 @@
 		class="embed-responsive-item"
 	></iframe>
 </div>
+{{- if .Get "attr" -}}<p class="video-attr">
+    Source: <a href='https://www.youtube.com/watch?v={{ .Get "id" }}'>
+    {{- .Get "attr" | markdownify -}}</a></p>
+{{- end }}
 
 <div class="d-none d-print-block print-alert">
 <p>This segment of the page contains a video, “{{ .Get "title" }}”.
