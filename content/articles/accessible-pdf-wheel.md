@@ -4,7 +4,8 @@ date: 2019-10-23
 type: "post"
 authors: ["mustapha"]
 tags: ["accessibility","pdf","user experience"]
-lede: "Making accessible interactive PDF can be tricky. This post offers an approach that considers accessibility experience in addition to technical compliance."
+lede: "This post offers an approach that takes into account accessibility experience
+in addition to technical compliance for accessible interactive PDF documents."
 poster: "poster-accessible-pdf-wheel.png"
 socmediaimg: "socmediaimg-accessible-pdf-wheel.jpg"
 hiliteimg: "poster-accessible-pdf-wheel.png"
@@ -24,7 +25,7 @@ document. It affords robust and reliable options for presentation, layout, and
 interactivity, that is independent of hardware and operating system. It is also
 tricky for accessibility, because of the flexibility of layout it provides.
 
-Consider an inaccessible PDF document with multi-column layout that is typical
+Consider an inaccessible PDF document with multi-column layout that’s typical
 in newspapers or brochures. The columns are visual containers for the text, and
 they provide structure for sighted readers. The reader perceives the content
 flow as top-down, line by line, column by column.
@@ -37,7 +38,7 @@ A screen reader, on the other hand, doesn’t recognize the content structure as
 hinted by the columns because there’s nothing in the inaccessible PDF that
 passes that structure along. The screen reader reads the inaccessible PDF from
 top to bottom, left to right, across columns. The following video demonstrates
-the nonsensical screen reading of an inaccessible PDF content.
+the nonsensical screen reading of inaccessible PDF content.
 
 {{< youtube
     id="GaNwnsT4B5s"
@@ -51,10 +52,10 @@ other disabilities can read, interact, understand, and navigate the document in
 the equivalent manner as an abled person.
 
 The content of an accessible PDF document needs to be in a _logical, or
-meaningful structure and sequential order_ regardless of its layout. This can
-be achieved using _PDF tags_. These tags provide assistive technologies, such
-as a screen reader, an organizational hierarchy of the document that can be
-read and tabbed through. These tags are similar to the semantic elements in
+meaningful structure_, and _in sequential order_ regardless of its layout. This
+can be achieved by using _PDF tags_. These tags provide assistive technologies,
+such as a screen reader, an organizational hierarchy of the document that can
+be read and tabbed through. These tags are similar to the semantic elements in
 HTML such as header, paragraph, image, and link.
 
 _The foundation of PDF accessibility is the tagging of its content._
@@ -63,7 +64,8 @@ _The foundation of PDF accessibility is the tagging of its content._
 
 This summer, the CTL launched its first massive open online course (MOOC)
 dedicated to the topic of inclusive teaching in higher education. The MOOC,
-titled [Inclusive Teaching: Supporting All Students in the College Classroom](https://www.edx.org/course/inclusive-teaching-supporting-all-students-in-the-college-classroom), is a self-paced course on edX, and is open
+titled
+[Inclusive Teaching: Supporting All Students in the College Classroom](https://www.edx.org/course/inclusive-teaching-supporting-all-students-in-the-college-classroom), is a self-paced course on edX, and is open
 to everyone. Accessibility was an extensive consideration for this MOOC, from
 its main video production to the development of its supplementary materials.
 
@@ -92,12 +94,12 @@ Identities that have the greatest effect on how others perceive you.</p>
     alt="The Identity Wheel Activity" >}}
 
 Each box on the wheel represents a different facet of identity. The learner
-will type in the textboxes the number that corresponds with each reflective
-prompts in the center of the circle as it relates to a particular identity
-facet. An interactive PDF seemed like a good fit for Identity Wheel worksheet
-because the learner can work on the activity on- or offline, save it or print
-it for future reference. The worksheet just needed to be made accessible;
-exercise didn’t look so complex.
+types in the textboxes the number that corresponds with each reflective prompt
+in the center of the circle as it relates to a particular identity facet. An
+interactive PDF seemed like a good fit for the Identity Wheel worksheet because
+the learner can work on the activity on- or offline, save it or print it for
+future reference. The worksheet just needed to be made accessible; the exercise
+didn’t look so complex.
 
 ## Solution: first UX, then UX, then tools, then more UX
 
@@ -106,7 +108,7 @@ reflective prompts to the twelve identity facets. The initial visual layout and
 experience for the exercise is as follows:
 
 * The worksheet instructions and attribution precede the Identity Wheel. A
-learner would read the instructions before begin working on the exercise.
+learner would read the instructions before working on the exercise.
 * The twelve identity facets are arranged in a circle. While a sighted user
 would commonly read the wheel clockwise, the hierarchy or order of these facets
 is irrelevant.
@@ -119,12 +121,11 @@ reference.
     alt="" >}}
 
 The experience through a screen reader, however, is linear, and the content of
-the Identity Wheel PDF needed to be in a logical, meaningful structure and
-sequential order regardless of its layout. I also had to take into account how
-the screen reader reads a PDF, and find solutions to its limitations.
-VoiceOver, for example, reads only the content that is visible on screen. If
-half of the wheel is visible on the monitor, then VoiceOver reads only half of
-the identity facets and reflective prompts.
+the Identity Wheel PDF needed to be in a logical or meaningful structure, and in sequential order regardless of its layout. I also had to take into account
+how the screen reader reads a PDF, and find solutions to its limitations.
+VoiceOver, for example, reads only the PDF content that is visible on screen.
+If half of the Wheel is visible on the monitor, then VoiceOver reads only half
+of the identity facets and reflective prompts.
 
 {{< figure
     src="/img/assets/sr-visible-scope.jpg"
@@ -135,7 +136,7 @@ Determining the accessible experience for the Identity Wheel worksheet was an
 examination of the learning process of the exercise for _all learners_. What
 guidance and information did the learners require _beforehand_ to begin the
 exercise on their own? What did they need _while_ working on the activity?
-Would pagination be a problem if the worksheet is split into two pages? What
+Would pagination be a problem if the worksheet was split into two pages? What
 would the linear layout of experience be like?
 
 We decided on the following experience structure and sequence:
@@ -150,7 +151,7 @@ for sighted users, but would be read before the identity facets.
 
 {{< figure
     src="/img/assets/wheel-second-structure.png"
-    caption="Revised visual layout for the Identity Wheel exercise.<br/>The numbers indicate order of reading by a screen reader as described above."
+    caption="Revised visual layout for the Identity Wheel exercise.<br/>The numbers indicate the reading order by a screen reader as described above."
     alt="" >}}
 
 ## 1, 2, 3: Design, optimize, and test
@@ -164,7 +165,8 @@ structure and order previously described. The key to the correct reading and
 tabbing order in Adobe InDesign is the Articles Panel, and Tag Panel for
 structure—headings, paragraphs, images. I made sure that the source document
 had no typos or errors, and that it complied to the accessibility experience
-_before exporting to interactive PDF_ to minimize repairs in subsequent steps.
+_before exporting to an interactive PDF_ to minimize repairs in subsequent
+steps.
 
 I find the following tutorials helpful in creating the InDesign interactive
 source document:
@@ -183,8 +185,8 @@ screen readers and Adobe PDF Reader’s Read Out Loud functionality.
 
 First, I examined the Identity Wheel worksheet using the Reading Order tool.
 Since I structured my original InDesign document properly, the order of content
-required little fixing. I had to fix some peculiarities unique to InDesign PDF
-export (fractured paragraphs, for example), but other changes were minor.
+needed little fixing. I had to address some peculiarities unique to InDesign
+PDF export (fractured paragraphs, for example), but other changes were minor.
 
 Next, I repaired some structural tags; for example, improper headings, and list
 items in the worksheet instructions, with the Tagging tool. Finally, to address
@@ -220,10 +222,10 @@ What I’ve learned from this whole process are:
 
 1. Accessibility experience __is user experience__ and __is learning
 experience__. Get these right first, and the content will be accessible.
-2. PDF content needs to be in a logical, or meaningful structure and sequential
-order using semantic structure in the original document as much as possible
-before exporting to PDF. 
-3. Visual layout and meaningful structure/order for screen readers are
+2. Content needs to be semantically structured and sequentially ordered as much
+as possible before exporting to PDF to minimize repairs in Acrobat Pro.
+3. Having said that, you can always repair the order in Acrobat Pro.
+4. Tagging PDF document content is important for accessibility.
+5. Visual layout and meaningful structure/order for screen readers are
 independent of each other. You can lay out the document design any way you
 want, and with PDF tags, you can achieve a different reading order.
-4. Tagging PDF document content is important for accessibility.
