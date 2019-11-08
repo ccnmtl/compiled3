@@ -5,7 +5,8 @@ draft: true
 type: "post"
 authors: ["buonincontri"]
 tags: [""]
-lede: "Integration testing web applications in the browser has always been a challenge. Cypress' unique architecture offers a different way."
+lede: "Integration testing web applications in the browser has always been a
+challenge. Cypress' unique architecture offers a different way."
 shortlede: "Testing with Cypress"
 poster: "poster-get-started-with-cypress.jpg"
 socmediaimg: ""
@@ -16,14 +17,14 @@ bookendanimal: "cat"
 ---
 Testing is a key pillar of writing reliable software. When we build Django apps
 at the CTL, the testing story is pretty clear - it's focused on unit testing.
-But what about other kinds of sites, like Hugo sites or React apps? Our work on a
-[recent project](https://ohcoe.ctl.columbia.edu) led me to try the Cypress
+But what about other kinds of sites, like Hugo sites or React apps? Our work on
+a [recent project](https://ohcoe.ctl.columbia.edu) led me to try the Cypress
 testing framework, and I was happy that I did.
 
 ## Why Cypress?
-[Cypress](https://cypress.io) is the Chrome browser married with a Javascript testing
-framework. Typically, integration testing is driven by an external tool that
-manipulates the application and the browser. Consider Selenium testing -
+[Cypress](https://cypress.io) is the Chrome browser married with a Javascript
+testing framework. Typically, integration testing is driven by an external tool
+that manipulates the application and the browser. Consider Selenium testing -
 particularly how it interacts with the browser through an API, but isn't really
 aware of the state the browser is in. Race conditions are all too common with
 these frameworks because sometimes the browser hasn't finished doing what the
@@ -40,11 +41,11 @@ Cypress also packages everything you need. It can be tedious to install and
 configure various JavaScript testing and assertion libraries by hand. Cypress
 wires this all up for you.
 
-## What I Wish I Knew Before I started
+## What I Wish I Knew Before I Started
 Cypress tests rely on Javascript promises to know when to schedule each step of
 a test. Suppose a test takes some action on the page; it waits for the browser
 to finish rendering before it returns that link in the promise chain to a
-method that will make an assertion. I found that I needed to understand how
+method that will make an assertion.  I found that I needed to understand how
 promises work before I could really get going.
 
 Cypress can be pretty smart about events on the page, but it isn't a magician.
@@ -95,9 +96,11 @@ schemes especially easy to work in.
 
 In particular, Cypress paired with the Axe accessibility checker, proved to be
 an important part of building for accessibility. For a recent project, I wrote
-[tests to run accessibility checks](https://github.com/ccnmtl/ohcoe-hugo/tree/master/cypress/integration/axe) for each of the page templates. In headed
-mode, accessibility issues were quickly identified. It helped me build for
-accessibility right from the start, rather than trying to push the blueberries
-into the muffin at the end of development. It would also make these checks a
-part of the build process. If a later code change introduced a regression, it
-would fail to build, and not reach production.
+[tests to run accessibility
+checks](https://github.com/ccnmtl/ohcoe-hugo/tree/master/cypress/integration/axe)
+for each of the page templates. In headed mode, accessibility issues were
+quickly identified. It helped me build for accessibility right from the start,
+rather than trying to push the blueberries into the muffin at the end of
+development. It would also make these checks a part of the build process. If a
+later code change introduced a regression, it would fail to build, and not
+reach production.
