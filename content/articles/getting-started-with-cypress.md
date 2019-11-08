@@ -5,7 +5,7 @@ draft: true
 type: "post"
 authors: ["buonincontri"]
 tags: [""]
-lede: "Trying out Cypress for Integration testing"
+lede: "Integration testing web applications in the browser has always been a challenge. Cypress' unique architecture offers a different way."
 shortlede: "Testing with Cypress"
 poster: "poster-get-started-with-cypress.jpg"
 socmediaimg: ""
@@ -15,20 +15,20 @@ poster_source: "Wikimedia"
 bookendanimal: "cat"
 ---
 Testing is a key pillar of writing reliable software. When we build Django apps
-at the CTL, the testing story is pretty clear - its focused on unit testing.
-But what about other kinds of sites, like Hugo sites or React apps? Work on a
+at the CTL, the testing story is pretty clear - it's focused on unit testing.
+But what about other kinds of sites, like Hugo sites or React apps? Our work on a
 [recent project](https://ohcoe.ctl.columbia.edu) led me to try the Cypress
 testing framework, and I was happy that I did.
 
 ## Why Cypress?
-Cypress is essentially the Chrome browser married with a Javascript testing
+[Cypress](https://cypress.io) is the Chrome browser married with a Javascript testing
 framework. Typically, integration testing is driven by an external tool that
 manipulates the application and the browser. Consider Selenium testing -
 particularly how it interacts with the browser through an API, but isn't really
 aware of the state the browser is in. Race conditions are all too common with
 these frameworks because sometimes the browser hasn't finished doing what the
 test driver requested before moving on to the next stop. These bugs create
-confusion because its not clear if the application or the test is broken, and
+confusion because it's not clear if the application or the test is broken, and
 tests become peppered with calls to "wait()", which never work consistently.
 
 Cypress is different because it is the browser as well as the test driver. It
@@ -50,7 +50,7 @@ promises work before I could really get going.
 Cypress can be pretty smart about events on the page, but it isn't a magician.
 In particular, if you modify the DOM outside of the browser API, you'll likely
 run into some classic race condition skullduggery. I hit this the first time I
-setup Cypress. Initially I used Require.JS to load javascript assets. None of
+set up Cypress. Initially I used Require.JS to load javascript assets. None of
 my tests worked at first, and it became apparent once I looked at how
 Require.JS works. It creates new script tags and injects them into the DOM.
 This is a common pattern, especially before the "async" attribute became
@@ -59,11 +59,11 @@ after the page loads. The way to fix this was to use Webpack to assemble
 multiple assets to a single file, which would be loaded with the initial page
 load.
 
-Another pattern that bit me was trying to test Google Analytic custom events.
+Another pattern that bit me was trying to test Google Analytics custom events.
 You never want tests to have real-world side effects, so Cypress has a way to
 configure a DNS blacklist. If a request is made to a host on the list it won't
 resolve. The Cypress way of handling external resources is to add the external
-host to the black list, and then stub in whichever function or object which
+host to the blacklist, and then stub in whichever function or object which
 would be loaded by this external resource. This way, you can assert that the
 function is called, but it never calls the real implementation.
 
@@ -72,7 +72,7 @@ The solution in this case it to wrap the call to GA with another function, and
 assert that this wrapper function is called instead.
 
 ## How To Get Started
-Getting started with Cypress is pretty straight forward. It's thorough
+Getting started with Cypress is pretty straightforward. Its thorough
 documentation is the best place to
 [start](https://docs.cypress.io/guides/getting-started/installing-cypress.html)
 
@@ -85,7 +85,7 @@ server regardless of how the tests exit.
 
 ## TDD/BDD and Accessibility
 By design, Cypress can be used with test-driven and behavior-driven testing
-schemes. It runs in headless mode for CI but it also can be run in a ‘headed'
+schemes. It runs in headless mode for CI but it also can be run in a "headed"
 mode. It will render your tests in the browser and you can watch the robot
 drive the machine.
 
@@ -95,7 +95,7 @@ schemes especially easy to work in.
 
 In particular, Cypress paired with the Axe accessibility checker, proved to be
 an important part of building for accessibility. For a recent project, I wrote
-tests to run accessibility checks for each of the page templates. In headed
+[tests to run accessibility checks](https://github.com/ccnmtl/ohcoe-hugo/tree/master/cypress/integration/axe) for each of the page templates. In headed
 mode, accessibility issues were quickly identified. It helped me build for
 accessibility right from the start, rather than trying to push the blueberries
 into the muffin at the end of development. It would also make these checks a
