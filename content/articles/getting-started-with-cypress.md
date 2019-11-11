@@ -1,7 +1,6 @@
 ---
 title: "Getting Started with Cypress"
 date: 2019-11-11
-draft: true
 type: "post"
 authors: ["buonincontri"]
 tags: ["cypress", "testing", "accessibility", "javascript", "webpack"]
