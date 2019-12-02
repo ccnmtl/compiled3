@@ -7,7 +7,7 @@ tags: ["django", "python"]
 lede: "An overview of how to clone objects in Django that have foreign key relations."
 shortlede: "An overview of how to clone objects in Django that have foreign key relations."
 poster: "poster-cloning-arbitrary-django-objects.jpg"
-socmediaimg: ""
+socmediaimg: "socmediaimg-cloning-arbitrary-django-objects.jpg"
 hiliteimg: "poster-cloning-arbitrary-django-objects.jpg"
 poster_sourceurl: ""
 poster_source: ""
