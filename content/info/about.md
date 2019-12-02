@@ -9,7 +9,7 @@ poster_sourceurl: ""
 poster_source: ""
 ---
 
-_CompilED_ is a collection of posts by the software developers at Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at software developers and architects, UX/UI designers, and media/video producers of all flavors, but everyone is welcome.
+_CompilED_ is a collection of posts by the Instructional Technologies team of the Center for Teaching and Learning (CTL) at Columbia University. These views are rooted in our professional and personal experiences developing educational technology. These posts are directed at software developers and architects, user experience designers, and media/video producers of all flavors, but everyone is welcome.
 
 -----------
 
