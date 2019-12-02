@@ -4,19 +4,21 @@ date: 2019-12-02
 type: "post"
 authors: ["nyby"]
 tags: ["django", "python"]
-lede: "An overview of how to clone objects in Django that have foreign key relations"
-shortlede: "An overview of how to clone objects in Django that have foreign key relations"
-poster: ""
+lede: "An overview of how to clone objects in Django that have foreign key relations."
+shortlede: "An overview of how to clone objects in Django that have foreign key relations."
+poster: "poster-cloning-arbitrary-django-objects.jpg"
 socmediaimg: ""
-hiliteimg: ""
+hiliteimg: "poster-cloning-arbitrary-django-objects.jpg"
 poster_sourceurl: ""
 poster_source: ""
-bookendanimal: ""
+bookendanimal: "cat"
 ---
 
-I recently made a "course-cloning" feature in [EconPractice](https://econpractice.ctl.columbia.edu/)
+I recently made a “course-cloning” feature in
+[EconPractice](https://econpractice.ctl.columbia.edu/)
 that provides new instructors with their own template course. The
-original master course is managed by Tom Groll. This will give new
+original master course is managed by Thomas Groll, Columbia’s Lecturer in the
+Discipline of International and Public Affairs. This will give new
 instructors some ideas on how EconPractice can be used, and what
 scenarios it was designed for.
 
@@ -28,11 +30,11 @@ cloned.
 Python includes a [copy](https://docs.python.org/3.6/library/copy.html) library
 that can be used to copy Python objects. But Django model instances
 have even more to them than a Python object, because they represent
-what's saved in a database.
+what’s saved in a database.
 
-The recommended way to copy Django model instances is to use copy(),
-then set the instance's primary key to None, and save it. To clone a
-Graph instance, it's pretty simple:
+The recommended way to copy Django model instances is to use `copy()`,
+then set the instance’s primary key to `None`, and save it. To clone a
+Graph instance, it’s pretty simple:
 
 ```
 class Graph(models.Model):
@@ -44,8 +46,8 @@ class Graph(models.Model):
 ```
 
 To clone the whole course, I have to deal with the relations of the
-course manually. Because Django doesn't know that I want to clone all
-the course's topics and graphs, but not some relations like, for
+course manually. Because Django doesn’t know that I want to clone all
+the course’s topics and graphs, but not some relations like, for
 example, the users.
 
 ```
