@@ -46,9 +46,10 @@ class Graph(models.Model):
 ```
 
 To clone the whole course, I have to deal with the relations of the
-course manually. Because Django doesn’t know that I want to clone all
-the course’s topics and graphs, but not some relations like, for
-example, the users.
+course manually. Each course has relations Topics and Users (the
+course's instructors), and I only want to create a clone of the
+Topics. There is also some special handling needed for the General
+(default) topic of each course, noted in the comments below.
 
 ```
 # Course is called Cohort here (it's just a more general
