@@ -9,8 +9,8 @@ shortlede: "An overview of how to clone objects in Django that have foreign key 
 poster: "poster-cloning-arbitrary-django-objects.jpg"
 socmediaimg: "socmediaimg-cloning-arbitrary-django-objects.jpg"
 hiliteimg: "poster-cloning-arbitrary-django-objects.jpg"
-poster_sourceurl: ""
-poster_source: ""
+poster_sourceurl: "https://pixabay.com/photos/mirror-cat-animal-kitty-reflection-1359469/"
+poster_source: "Aafke, Pixabay"
 bookendanimal: "cat"
 ---
 
@@ -47,7 +47,7 @@ class Graph(models.Model):
 
 To clone the whole course, I have to deal with the relations of the
 course manually. Each course has relations Topics and Users (the
-course's instructors), and I only want to create a clone of the
+course’s instructors), and I only want to create a clone of the
 Topics. There is also some special handling needed for the General
 (default) topic of each course, noted in the comments below.
 
