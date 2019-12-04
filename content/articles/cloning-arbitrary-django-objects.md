@@ -46,7 +46,7 @@ class Graph(models.Model):
 ```
 
 To clone the whole course, I have to deal with the relations of the
-course manually. Each course has relations Topics and Users (the
+course manually. Each course has relations to Topics and Users (the
 course’s instructors), and I only want to create a clone of the
 Topics. There is also some special handling needed for the General
 (default) topic of each course, noted in the comments below.
