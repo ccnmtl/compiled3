@@ -58,6 +58,21 @@
         "headshot": "nbuonin.png",
         "status": "current"
     },
+    "raymond": {
+        "name": "Marc Raymond",
+        "firstName": "Marc",
+        "lastName": "Raymond",
+        "jobTitle": "Senior Designer, Experience and Creative",
+        "jobLink": "http://ctl.columbia.edu/about/team/raymond/",
+        "bioLine": "He provides creative planning, direction, and implementation for educational technology projects and initiatives.",
+        "email": "mraymond@columbia.edu",
+        "github": "",
+        "linkedin": "",
+        "twitter": "",
+        "www": "",
+        "headshot": "mraymond.png",
+        "status": "current"
+    },
     "ctldev": {
         "name": "CTL DevTeam",
         "firstName": "DevTeam",
