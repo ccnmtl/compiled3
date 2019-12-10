@@ -1,7 +1,6 @@
 ---
 title: "Design Thinking: My New Year’s Resolution"
 date: 2019-12-10
-draft: true
 type: "post"
 authors: ["raymond"]
 tags: ["design thinking", "brainstorming", "collaboration", "user experience"]
