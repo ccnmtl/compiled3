@@ -9,6 +9,7 @@ for 2019, from coding tips, to project process, and accessibility."
 shortlede: "As we enter the new year, we look back at what we covered in
 CompilED for 2019, from coding tips, to project process, and accessibility."
 poster: "poster-wrap-up-2019.jpg"
+thumbnail: "thumbnail-wrap-up-2019.jpg"
 socmediaimg: "socmediaimg-wrap-up-2019.jpg"
 hiliteimg: "poster-wrap-up-2019.jpg"
 poster_sourceurl: "https://wallup.net/monochrome-cat-desk-laptop-sleeping/"
