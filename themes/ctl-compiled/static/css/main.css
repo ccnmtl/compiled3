@@ -288,6 +288,15 @@ code {
     background-color: #090;
 }
 
+.post-thumbnail {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 52%;
+    margin: 0 0 1rem 0;
+}
+
 .more-posts {
     text-align: center;
     margin: 0 0;
@@ -937,6 +946,9 @@ blockquote {
 }
 .recent-post h3, .author-card .h2 {
     font-size: 1.625rem;
+}
+.post-thumbnail {
+    margin: 0 0 2rem 0;
 }
 .compiled-info {
     padding: 0 5rem;
