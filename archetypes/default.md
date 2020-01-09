@@ -8,6 +8,7 @@ tags: [""]
 lede: ""
 shortlede: ""
 poster: ""
+thumbnail: ""
 socmediaimg: ""
 hiliteimg: ""
 poster_sourceurl: ""

@@ -12,6 +12,7 @@ shortlede: "The essence of “design thinking” boils down to three tasks that
 anyone can—and must—do first in order to both effectively and empathetically
 solve design problems. What are they?"
 poster: "poster-design-thinking-resolution.jpg"
+thumbnail: "thumbnail-design-thinking-resolution.jpg"
 socmediaimg: "socmediaimg-design-thinking-resolution.jpg"
 hiliteimg: "poster-design-thinking-resolution.jpg"
 poster_sourceurl: "https://www.istockphoto.com/photo/high-tech-crash-test-dummy-ready-for-testing-gm157192999-2396903"

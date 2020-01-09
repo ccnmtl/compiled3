@@ -7,6 +7,7 @@ tags: ["cypress", "testing", "accessibility", "javascript", "webpack"]
 lede: "Integration testing web applications in the browser has always been a
 challenge. Cypress unique architecture offers a different way."
 poster: "poster-ochoe-cypress.jpg"
+thumbnail: "thumbnail-ochoe-cypress.jpg"
 socmediaimg: "socmediaimg-ochoe-cypress.jpg"
 hiliteimg: "poster-ochoe-cypress.jpg"
 poster_sourceurl: "https://commons.wikimedia.org/wiki/File:Wheat-Field-with-Cypresses-(1889)-Vincent-van-Gogh-Met.jpg"

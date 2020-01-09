@@ -44,6 +44,11 @@
                 {{ range first 4 ( after 1 ( where .Site.Pages "Type" "post" ) ) }}
                 <div class="col-md-6 recent-post">
                     <article itemscope itemtype="http://http://schema.org/BlogPosting">
+                        {{ if .Params.thumbnail }}
+                        <div class="post-thumbnail" style="background-image: url({{ .Site.BaseURL }}img/assets/{{ .Params.thumbnail }})"></div>
+                        {{ else }}
+                        <div class="post-thumbnail" style="background-image: url({{ .Site.BaseURL }}img/assets/og-compiled-image.png)"></div>
+                        {{ end }}
                         <h3 id="{{ .UniqueID }}"><a href="{{ .URL }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
                         <p class="post-byline" itemprop="author" itemscope itemtype="http://schema.org/Person">By 
                         {{ range $i, $e := .Params.authors }}{{if $i}}, {{end}}<a href='{{ "/authors/" | relLangURL }}{{ . | urlize }}' itemprop="url"><span itemprop="name">{{ (index $.Site.Data.authors $e).name }}</span></a>{{ end }}
