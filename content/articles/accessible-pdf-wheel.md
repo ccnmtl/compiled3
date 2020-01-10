@@ -7,7 +7,7 @@ tags: ["accessibility","pdf","user experience"]
 lede: "This post offers an approach that takes into account accessibility experience
 in addition to technical compliance for accessible interactive PDF documents."
 poster: "poster-accessible-pdf-wheel.png"
-thumbnail: "thumbnail-accessible-pdf-wheel.png"
+thumbnail: "thumbnail-accessible-pdf-wheel.jpg"
 socmediaimg: "socmediaimg-accessible-pdf-wheel.jpg"
 hiliteimg: "poster-accessible-pdf-wheel.png"
 poster_sourceurl: ""
