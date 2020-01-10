@@ -19,7 +19,7 @@ bookendanimal: "satellite-dish"
 
 At the CTL, we use Graphite and Grafana to monitor all of our server
 infrastructure, but our last physical server, a QNAP file server, does not have
-a straightforward way to send it’s metrics to a graphite monitoring
+a straightforward way to send its metrics to a graphite monitoring
 environment.  Even worse, it runs a customized version of Linux which we were
 hesitant to modify.  Luckily it does support the Simple Network Management
 Protocol (SNMP), which can do just that.
