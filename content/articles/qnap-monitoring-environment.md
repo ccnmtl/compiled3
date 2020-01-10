@@ -30,8 +30,8 @@ Protocol (SNMP), which can do just that.
 
 It is a network protocol for collecting information about managed
 devices.  Traditionally it is used by many types of networking equipment,
-including switches, routers, etc.  It’s paired with MIB (Management
-Information Base) file, which is a collection of information organized
+including switches, routers, etc.  It’s paired with a MIB file (Management
+Information Base file), which is a collection of information organized
 hierarchically.  SNMP uses the MIB files to know which information to poll, as
 it has definitions of the properties of the managed object of the device.  The
 objects identifiers, or OID, uniquely identify objects within the MIB hiearchy,
