@@ -17,7 +17,9 @@ poster_source: "Pinclipart.com"
 bookendanimal: "satellite-dish"
 ---
 
-At the CTL, we use Graphite and Grafana to monitor all of our server
+At the CTL, we use
+[Graphite](https://graphite.readthedocs.io/en/latest/overview.html)
+and [Grafana](https://grafana.com) to monitor all of our server
 infrastructure, but our last physical server, a QNAP file server, does not have
 a straightforward way to send its metrics to a graphite monitoring
 environment.  Even worse, it runs a customized version of Linux which we were
@@ -26,9 +28,9 @@ Protocol (SNMP), which can do just that.
 
 ## What is SNMP?
 
-Essentially it is a network protocol for collecting information about managed
+It is a network protocol for collecting information about managed
 devices.  Traditionally it is used by many types of networking equipment,
-including switches, routers, etc.  It’s paired with an MIB (Management
+including switches, routers, etc.  It’s paired with MIB (Management
 Information Base) file, which is a collection of information organized
 hierarchically.  SNMP uses the MIB files to know which information to poll, as
 it has definitions of the properties of the managed object of the device.  The
@@ -61,7 +63,7 @@ command `net-snmp-config --default-mibdirs` will also give you the MIB
 directory location. 
 
 Console output from this tool is very hard to read, so I used one of the many
-available MIB browsers to see what data can be polled.  There are many out
+available MIB browsers to see which data can be polled.  There are many out
 there, but they all use the manufacturer MIB file to identify the OID’s of
 information that can be collected.  You load the MIB file, specify the
 destination, and it will issue a snmpwalk command to retrieve information from
@@ -89,13 +91,13 @@ apt-get install collectd
 
 Modify the configuration file at /etc/collectd/collectd.conf.  The default
 config file has lots of options, which are mostly disabled and commented out.
-I wont focus on the global configuration, but there are a few variables to be
+I won’t focus on the global configuration, but there are a few variables to be
 set like hostname, logging options, plugin directory, etc.
 
 We’ll be enabling the SNMP and write_graphite plugins.  The
 [SNMP](https://collectd.org/documentation/manpages/collectd-snmp.5.shtml)
 manual page of collectd has detailed information about how to configure the
-plugins, but each metric has to be specified indivdually.  For example, to get
+plugins, but each metric has to be specified individually.  For example, to get
 the CPU usage:
 
 
