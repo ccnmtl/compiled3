@@ -11,7 +11,7 @@ shortlede: "What to do when the one-size-fits-all agile methodology doesn’t fe
 quite right? At the CTL, we’re experimenting with our planning
 and task creation to find a just-right development process."
 poster: "poster-practicing-agility.jpg"
-thumbnail: "thumbnail-agility.jpg"
+thumbnail: "thumbnail-practicing-agility.jpg"
 socmediaimg: "socmediaimg-practicing-agility.jpg"
 hiliteimg: "poster-practicing-agility.jpg"
 poster_sourceurl: "https://unsplash.com/photos/9BQKtLi1G0Y"

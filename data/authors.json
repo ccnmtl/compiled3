@@ -88,6 +88,21 @@
         "headshot": "danirudh.png",
         "status": "current"
     },
+    "meksin": {
+        "name": "Meesha Meksin",
+        "firstName": "Meesha",
+        "lastName": "Meksin",
+        "jobTitle": "Project Manager",
+        "jobLink": "https://ctl.columbia.edu/about/team/meesha-meksin/",
+        "bioLine": "His interests include knowledge landscapes, the nature of consciousness, the consciousness of nature, furry animals, and being weird.",
+        "email": "m.meksin@columbia.edu",
+        "github": "",
+        "linkedin": "",
+        "twitter": "",
+        "www": "",
+        "headshot": "mmeksin.png",
+        "status": "current"
+    },
     "ctldev": {
         "name": "CTL DevTeam",
         "firstName": "DevTeam",
