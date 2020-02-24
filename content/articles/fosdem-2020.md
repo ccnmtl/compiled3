@@ -116,9 +116,9 @@ operating system.
 <img class="img-fluid" src="/img/assets/ibm-hd.jpg" width="640" height="480"
      alt="5MB IBM hard disk being delivered (1956)" />
 
-In this talk, Liam mentions The Future of Programming, a talk by Bret
-Victor in 2013, made from the perspective of 1973, complete with an
-old-fashioned slide deck and a pocket protector.
+In this talk, Liam mentions [The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)
+, a talk by Bret Victor in 2013, made from the perspective of 1973,
+complete with an old-fashioned slide deck and a pocket protector.
 
 # [HTTP/3 for everyone](https://fosdem.org/2020/schedule/event/http3/) - Daniel Stenberg
 
