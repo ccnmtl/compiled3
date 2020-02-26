@@ -4,11 +4,10 @@ date: 2020-02-26
 type: "post"
 authors: ["nyby"]
 tags: ["linux", "conference", "events"]
-lede: "A summary of the Free and Open source Software Developers’ European Meeting,
-which was held in Brussels on February 1st and 2nd, 2020.
-1st and 2nd."
-shortlede: "A summary of the Free and Open source Software Developers’ European Meeting,
-which was held in Brussels on February 1st and 2nd, 2020."
+lede: "A summary of the Free and Open source Software Developers’ European
+Meeting, which was held in Brussels on February 1st and 2nd, 2020."
+shortlede: "A summary of the Free and Open source Software Developers’ European
+Meeting, which was held in Brussels on February 1st and 2nd, 2020."
 poster: "poster-fosdem-2020.jpg"
 thumbnail: "thumbnail-fosdem-2020.jpg"
 socmediaimg: "socmediaimg-fosdem-2020.jpg"
