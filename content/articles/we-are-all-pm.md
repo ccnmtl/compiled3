@@ -22,8 +22,8 @@ myself, coming from an eclectic background involving customer and stakeholder
 service, office management and film/art production. Throughout my first few
 months here I’ve prioritized researching Agile and other methodologies and
 familiarizing myself with professional best practices. Through the course of my
-research, it became clear to me that especially these days, expertise in
-project management is being monetized and even commoditized. Many different
+research, it became clear to me that especially these days, developing expertise
+in project management is being monetized and even commoditized. Many different
 institutions and entities are selling the promise of outfitting learners/users
 with the skills and tools needed to be a valuable project manager. Like any
 trending marketplace, there’s no shortage of catchy buzzwords to advertise the
@@ -34,13 +34,13 @@ new you:
 SAFe ([Scaled Agile Framework](https://en.wikipedia.org/wiki/Scaled_agile_framework))
 consultant,
 [Design Thinking](/articles/design-thinking-resolution/) professional,
-[Lean Production](https://en.wikipedia.org/wiki/Lean_manufacturing) manager...
-And there’s no doubt that some of these programs have much to offer many of us.
-However the question these frameworks and methods are really trying to answer
-is something we can all offer insight into: what are the best ways to
-consistently make things happen and get things done as a team? 
+[Lean Production](https://en.wikipedia.org/wiki/Lean_manufacturing) manager,
+and many others. And there’s no doubt that some of these programs have much to
+offer many of us. However the question these frameworks and methods are really
+trying to answer is something we can all offer insight into: what are the best
+ways to consistently and collaboratively get things done in a team? 
 
-I think it’s important for everyone at the CTL to think about this
+I think it’s important for everyone at the CTL to think about this question
 collectively. No matter our roles, we’re all engaged in project management. We
 all use our expertise in a particular area to do the heavy lifting: designing
 an interactive course, offering an innovative workshop, building a purposeful
@@ -67,7 +67,7 @@ like a good office manager in the workplace, a project manager should
 anticipate and meet the needs of project stakeholders. This includes tasks that
 may not be assigned to any specific person on the project team, like leading a
 meeting, taking notes and making sure the group stays on topic. If action items
-arise, don’t just list them, but assure there’s a clear understanding by all
+arise, don’t just list them, but ensure there’s a clear understanding by all
 regarding who is responsible and by when. This attitude helps build a culture
 of support and growth within the team. 
 
@@ -84,9 +84,9 @@ helps assure the pieces come together appropriately. One of the tools with
 which we try to do this is [Jira](https://www.atlassian.com/software/jira),
 although as an organization, we’re still new to this tool. When I ran into
 problems clearly visualizing a top-level view of work across projects in Jira,
-I created my own spreadsheet to more fully understand a bigger picture. It’s
-worth it to spend time on creating these artifacts that show us our work
-because of the organizational value they add. 
+I created my own spreadsheet to more fully understand a bigger picture. The
+time spent on these artifacts is worthwhile, as they provide additional
+organizational insights into our work. 
 
 ## Sharing with your Colleagues
 
@@ -98,5 +98,5 @@ collaboration. This furthers the group dialogue on best practices and reminds
 us that it’s [people and interactions](https://agilemanifesto.org/) that drive
 organizational change, not the tools and processes at their disposal.
 
-Stay tuned for more insights and updates on our project management journey at
+Stay tuned for more insights and updates on my project management journey at
 the CTL.
