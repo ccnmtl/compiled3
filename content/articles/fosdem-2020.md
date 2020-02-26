@@ -17,7 +17,8 @@ poster_source: "Wikipedia"
 bookendanimal: "cog"
 ---
 
-I attended [FOSDEM](https://fosdem.org/2020/) in Brussels on February
+I attended the Free and Open source Software Developers’ European Meeting
+([FOSDEM](https://fosdem.org/2020/)) in Brussels on February
 1st and 2nd, 2020. The amount of people throughout the
 [ULB](https://www.ulb.be/en) campus made the experience overwhelming,
 but exciting. Around 8,000 people attend this conference, and there
