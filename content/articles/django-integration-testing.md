@@ -1,16 +1,16 @@
 ---
 title: "Setting up Django Integration Testing with Cypress"
-date: 2020-02-14
+date: 2020-03-13
 type: "post"
 authors: ["buonincontri"]
 tags: ["django", "python","cypress", "testing", "javascript", "webpack"]
 lede: "Finding a solution to integration testing in Django"
-poster: ""
-thumbnail: ""
-socmediaimg: ""
-hiliteimg: ""
-poster_sourceurl: ""
-poster_source: ""
+poster: "django-integration-testing.jpg"
+thumbnail: "django-integration-testing.jpg"
+socmediaimg: "django-integration-testing.jpg"
+hiliteimg: "django-integration-testing.jpg"
+poster_sourceurl: "https://www.loc.gov/resource/gottlieb.07301.0/?sp=1"
+poster_source: "Portrait of Django Reinhardt, Aquarium, New York, N.Y., ca. Nov. 1946, LOC"
 bookendanimal: "cat"
 ---
 One of the pleasures of writing applications in Django, or painpoints depending
@@ -26,7 +26,7 @@ that I wanted a way to populate a test database, like when one runs `manage.py
 test`, but I needed the server to stay alive while the integration tests ran.
 Django provides a `manage.py testserver` command which loads in provided
 fixtures. This was closer to what I wanted, but not 100%. Primarily, I didn't
-want to rely on fixtures. It can be a brittle experience to use and maintain
+want to rely on fixtures, as it can be a brittle experience to use and maintain
 them. Other parts of how `manage.py testserver` works did seem exactly like
 what I wanted. Ultimately, I chose to borrow the parts of `testserver` that I
 needed to bring up the test database and the test server, and replace the
@@ -71,7 +71,7 @@ Because this command will be used for testing, I decided to ignore the database
 connection feature, and always run the server in multithreaded mode.
 
 In addition to testing, I'm also finding `integrationserver` to be helpful for
-local development. Having my models populated by factories, it makes it easy to
+local development. By having my models populated by factories, it makes it easy to
 trash my local database, and start cleanly.
 
 Why do all this though? In the past we've found that integration tests that use
@@ -79,5 +79,5 @@ a Web Driver approach, like Selenium, present challenges with concurrency. Test
 code is peppered with calls to `wait(n)`, and we experience a number of false
 fails in our CI workflow. Cypress' approach, merging the client and the test
 runner, seems like a more durable approach in that tests can wait for the
-browsers async loop. We want to explore Cypress to see if it can successfully
-fill this role.
+browsers async loop. We want to explore the capabilities of Cypress to see if
+it can successfully fill this role.
