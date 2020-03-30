@@ -4,11 +4,12 @@ date: 2020-03-13
 type: "post"
 authors: ["buonincontri"]
 tags: ["django", "python","cypress", "testing", "javascript", "webpack"]
-lede: "Finding a solution to integration testing in Django"
-poster: "django-integration-testing.jpg"
-thumbnail: "django-integration-testing.jpg"
-socmediaimg: "django-integration-testing.jpg"
-hiliteimg: "django-integration-testing.jpg"
+lede: "Finding a solution to integration testing in Django."
+shortlede: "Finding a solution to integration testing in Django."
+poster: "poster-django-integration-testing.jpg"
+thumbnail: "thumbnail-django-integration-testing.jpg"
+socmediaimg: "socmediaimg-django-integration-testing.jpg"
+hiliteimg: "poster-django-integration-testing.jpg"
 poster_sourceurl: "https://www.loc.gov/resource/gottlieb.07301.0/?sp=1"
 poster_source: "Portrait of Django Reinhardt, Aquarium, New York, N.Y., ca. Nov. 1946, LOC"
 bookendanimal: "cat"
