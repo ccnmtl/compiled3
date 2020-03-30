@@ -1,6 +1,6 @@
 ---
 title: "Setting up Django Integration Testing with Cypress"
-date: 2020-03-13
+date: 2020-03-30
 type: "post"
 authors: ["buonincontri"]
 tags: ["django", "python","cypress", "testing", "javascript", "webpack"]
