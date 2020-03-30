@@ -14,7 +14,7 @@ poster_sourceurl: "https://www.loc.gov/resource/gottlieb.07301.0/?sp=1"
 poster_source: "Portrait of Django Reinhardt, Aquarium, New York, N.Y., ca. Nov. 1946, LOC"
 bookendanimal: "cat"
 ---
-One of the pleasures of writing applications in Django, or painpoints depending
+One of the pleasures of writing applications in Django, or pain points depending
 on your outlook, is that unit testing is at the core of the experience. It's
 very much part of the culture of the Django project, so much so that it has its
 [own chapter](https://docs.djangoproject.com/en/3.0/intro/tutorial05/) in the
@@ -52,7 +52,7 @@ looks something like this:
 
 This all worked swimmingly on my local machine, but then my tests started
 failing more often then not in our CI workflow. The bug turned out to be a
-confluence of three different factors, in particular the usage of a Sqlite
+confluence of three different factors: the usage of a Sqlite
 backend during tests, setting the dev server to run on a single thread, and a
 known buggy interaction with Chrome and Django's test server. In Django, the
 Sqlite database feature has a `test_db_allows_multiple_connections`
