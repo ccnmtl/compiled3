@@ -91,18 +91,18 @@ wireframes.
 ## Why write technical stories?
 
 User stories are invaluable to define user expectations of a desired
-functionality in simple and direct manner, but they may not make apparent the
+functionality in a simple and direct manner, but they may not make apparent the
 details and conditions that may come up on the backend. Writing out these
 technical narratives defines the scope and helps us estimate our efforts and
 prioritize the functionalities.
 
 Technical stories are also a form of conversation among us developers and
 designers, and the project’s stakeholders. These stories are not what and how
-we developers want the software to do, but they are an examination of options
-and possibilities to meet the acceptance criteria, and satisfy the learning
-goals and outcomes. We may not have thought of these potentials in detail as we
-write the user stories, and in the end, they can help us design and develop
-better experience for the users.
+we developers want the software to do. Instead they are an examination of
+options and possibilities to meet the acceptance criteria, and satisfy the
+learning goals and outcomes. We may not have thought of these potentials in
+detail as we write the user stories, and in the end, they can help us design
+and develop better experience for the users.
 
 These stories can also inform us of additional conditions, limitations, or
 other important technical aspect of the software we’re making that may not be
@@ -155,11 +155,9 @@ character limitation for title, and the lack of it for instructions?
 
 As we flesh out the technical stories, we can then prioritize our development
 work, and change user stories to improve the desired functionalities. These
-technical stories also helps me sketch out a set of wireframes that include
+technical stories also help me sketch out a set of wireframes that include
 user and information (or data) interaction. The technical stories map to the
 user stories, and because of that, we can see how they affect user experience.
-
-&nbsp;
 
 The conversations around the technical stories for this user story doesn’t
 happen in isolation. Both the faculty client and learning designer for the
