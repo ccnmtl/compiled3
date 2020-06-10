@@ -1,5 +1,5 @@
 ---
-title: "Iterative Narrative of User and Technical Stories"
+title: "The Narrative of User and Technical Stories"
 date: 2020-06-09
 type: "post"
 authors: ["mustapha"]
