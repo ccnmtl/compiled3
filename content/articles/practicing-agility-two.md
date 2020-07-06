@@ -1,6 +1,6 @@
 ---
 title: "Practicing Agility - Transitioning To Remote Work"
-date: 2020-01-21
+date: 2020-07-06
 type: "post"
 authors: ["dreher"]
 tags: ["agile", "process"]
