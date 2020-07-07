@@ -13,7 +13,7 @@ socmediaimg: "socmediaimg-practicing-agility-remote.jpg"
 hiliteimg: "poster-practicing-agility-remote.jpg"
 poster_sourceurl: "https://unsplash.com/photos/smgTvepind4"
 poster_source: "Chris Montgomery on Unsplash.com"
-bookendanimal: "vials"
+bookendanimal: "virus"
 ---
 
 > The most efficient and effective method of conveying information to and 
@@ -52,9 +52,9 @@ difficult period.
 Though the existing process has been supportive, we have all still struggled to
 maintain our focus and velocity. New York was long the epicenter of the
 pandemic, and our hearts and minds were (are still) with those who struggled
-with the virus, the health-care community who worked tirelessly to help the
-sick, and the front-line workers who labored to keep the city afloat, despite
-low wages and frequent lack of protective equipment.
+with the coronavirus, the health-care community who worked tirelessly to help
+the sick, and the front-line workers who labored to keep the city afloat,
+despite low wages and frequent lack of protective equipment.
 
 Team members immediately began discussing ways to stay on task. An effective
 pattern that emerged was daily project check-ins, one in the morning to set a
