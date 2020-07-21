@@ -103,6 +103,21 @@
         "headshot": "mmeksin.png",
         "status": "current"
     },
+    "dittren": {
+        "name": "Natalia Dittren",
+        "firstName": "Natalia",
+        "lastName": "Dittren",
+        "jobTitle": "Associate Programme",
+        "jobLink": "https://ctl.columbia.edu/about/team/dittren/",
+        "bioLine": "Outside of work, you can also find her coaching a fencing team. She also enjoys the theatre and going to Meetups related to tech.",
+        "email": "nd2664@columbia.edu",
+        "github": "",
+        "linkedin": "",
+        "twitter": "",
+        "www": "",
+        "headshot": "ndittren.png",
+        "status": "current"
+    },
     "ctldev": {
         "name": "CTL DevTeam",
         "firstName": "DevTeam",
