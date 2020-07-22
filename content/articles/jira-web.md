@@ -33,7 +33,7 @@ you do need to create each individual custom field you would want to use in
 your issue. But it also involves the creation of an Issue Type, which is then
 attached to an Issue Type Scheme. From there, you must create a Screen and
 attach the newly configured custom fields. Lastly, it also requires the
-configuration of an 
+configuration of an
 [Issue Type Screen Scheme](https://confluence.atlassian.com/adminjiracloud/associating-screen-and-issue-operation-mappings-with-an-issue-type-776636504.html#:~:text=Hence%2C%20an%20issue%20type%20screen,default%20issue%20type%20screen%20scheme.).
 
 The use of schemes and screens in Jira was something that I had to research
@@ -49,5 +49,9 @@ workflows/features are only available on Jira Cloud vs Jira Software.
 The main takeaway for me was the expansiveness of Jira and how many things
 actually go into making a complex project management tool. I had previously
 written a small application management system, which had a different goal of
-course, but I can see where I can go back and improve. I look forward to
-learning more about Jira and management tools in general.
+course, but I can see where I can go back and improve.
+
+Ultimately, after some research, I was able to create a customized Jira ticket
+that will hopefully make it easier for the Media Team to collect all necessary
+information for events that require photography or video recording. I look
+forward to learning more about Jira and management tools in general.
