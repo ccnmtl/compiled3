@@ -191,5 +191,20 @@
         "www": "",
         "headshot": "",
         "status": "inactive"
+    },
+    "aurigemma": {
+        "name": "Alexis Aurigemma",
+        "firstName": "Alexis",
+        "lastName": "Aurigemma",
+        "jobTitle": "Media Producer",
+        "jobLink": "https://ctl.columbia.edu/about/team/alexis-aurigemma/",
+        "bioLine": "Her interests include media production--specifically writing and video editing, singing, anime, and park clean up organizing.",
+        "email": "aa4355@columbia.edu",
+        "github": "",
+        "linkedin": "",
+        "twitter": "",
+        "www": "",
+        "headshot": "",
+        "status": "inactive"
     }
 }

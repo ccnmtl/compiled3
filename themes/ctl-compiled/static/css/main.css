@@ -471,7 +471,14 @@ code {
     font-size: 1.125rem;
     line-height: 130%;
     font-style: italic;
-    color: #666;
+}
+
+.entry-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 130%;
+    color: #333;
 }
 
 .entry-content ol li,
@@ -871,8 +878,9 @@ blockquote {
         margin: 3rem -1.5625rem 3rem -1.5625rem;
     }
     .entry-content figcaption p {
-        margin: 0;
+        margin: 0 auto;
         font-size: 0.875rem;
+        max-width: 47rem;
     }
     .entry-content pre {
         margin: 1.2rem -1.5625rem 1.2rem -1.5625rem;
