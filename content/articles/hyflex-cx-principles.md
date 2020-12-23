@@ -37,7 +37,7 @@ curriculum.
 Technology is an essential ingredient to these HyFlex courses so all students
 can participate wherever, whenever, and however they can. User Experience (UX)
 design can help with the online components but not the face-to-face ones. It’s
-a lot of work leaving instructors with potentially lots moving pieces and dead
+a lot of work leaving instructors with potentially lots of moving pieces and dead
 ends. How can instructors save time and minimize frustrations in terms of
 getting all of the pieces within a HyFlex puzzle to fit? How do students enter,
 remain, and leave the course feeling both enlightened and energized?
@@ -52,13 +52,13 @@ team must articulate each and every way in and out, before, during and after
 this experience in order to satisfy and delight customers, which creates a
 strong customer-brand relationship. HyFlex Instructors must also define the
 synchronous and asynchronous touchpoints in the journey in the student’s
-learning, leaving them feel supported, also creating a strong
+learning, leaving them feeling supported, also creating a strong
 student-instructor relationship.
 
 Also, CX Design is about connecting customers with brand communities. A brand
 may have a superior product or service but it won’t amount to much if it can’t
-reach their customers at their various stages of encountering it. HyFlex
-Instructors face the same dilemma. An instructor will face difficulties if
+reach its customers at their various stages of encountering it. HyFlex
+instructors face the same dilemma. An instructor will face difficulties if
 unable to connect the face-to-face and online components within the classroom
 community no matter how compelling the curriculum.
 
