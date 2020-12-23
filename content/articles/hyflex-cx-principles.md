@@ -20,8 +20,8 @@ bookendanimal: "lightbulb"
 ---
 Teaching and learning in higher ed during this pandemic has been nothing short
 of challenging for instructors. They’ve been forced to quickly bridge classroom
-gaps in time, place, distance, and student modalities and an effective response
-to these challenges has been transforming existing courses into effective, new
+gaps in time, place, distance, and student modalities. An effective response
+to these challenges has been to transform existing courses into effective, new
 HyFlex (hybrid flexible) courses.
 
 This HyFlex course format has been enjoying success because it combines both
