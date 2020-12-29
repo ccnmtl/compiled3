@@ -1,6 +1,6 @@
 ---
 title: "Avoiding conflict and maximizing collaboration: A shared editing approach"
-date: 2020-12-01
+date: 2020-12-29
 type: "post"
 authors: ["dreher"]
 tags: ["django", "javascript", "object model", "collaboration"]
