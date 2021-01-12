@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/ccnmtl/compiled3/workflows/build-and-test/badge.svg)](https://github.com/ccnmtl/compiled3/actions)
+ 
 ![CompiLED](https://raw.githubusercontent.com/ccnmtl/compiled3/master/static/img/banner-readme.png)  
 
 
