@@ -93,8 +93,7 @@ captions. When doing a MOOC, it can take over an hour per section to do a QA
 review of the captions provided by Rev. Despite Rev being a professional
 service, they can make mistakes and it’s up to you to catch them.
 
-### What is your method for editing captions? Have you set aside extra time to
-edit them?
+### What is your method for editing captions? Have you set aside extra time to edit them?
 
 YouTube has the capability to edit the captions directly and download both
 `.srt` and `.vtt` files, which are standard timed caption formats.
@@ -259,6 +258,8 @@ the descriptions of the YouTube playlists as well as in each YouTube video.
 However, at the time of uploading this MOOC, we had not made such a
 consideration. It’s something that can be revisited, which is exactly what
 accessibility design is all about: learn, implement, repeat.
+
+## Conclusion
 
 I hope that this brief introduction to video accessibility has provided you
 with some useful strategies and examples that you can draw upon when doing your
