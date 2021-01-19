@@ -18,7 +18,7 @@
             {{- if or (.Get "caption") (.Get "attr") -}}<p>
                 {{- .Get "caption" | markdownify -}}
                 {{- with .Get "attrlink" }}
-                    — <span class="img-attr">Source: <a href="{{ . }}">
+                    <br/>— <span class="img-attr">Source: <a href="{{ . }}">
                 {{- end -}}
                 {{- .Get "attr" | markdownify -}}
                 {{- if .Get "attrlink" }}</a></span>{{ end }}</p>
@@ -47,7 +47,7 @@
             {{- if or (.Get "caption") (.Get "attr") -}}<p>
                 {{- .Get "caption" | markdownify -}}
                 {{- with .Get "attrlink" }}
-                    — <span class="img-attr">Source: <a href="{{ . }}">
+                    <br />— <span class="img-attr">Source: <a href="{{ . }}">
                 {{- end -}}
                 {{- .Get "attr" | markdownify -}}
                 {{- if .Get "attrlink" }}</a></span>{{ end }}</p>
