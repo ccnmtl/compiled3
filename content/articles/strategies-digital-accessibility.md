@@ -11,7 +11,7 @@ shortlede: "In this CompilED article, you’ll find three practical digital
 accessibility strategies that can be applied to educational video projects."
 poster: "poster-strategies-digital-accessibility.png"
 thumbnail: "thumbnail-secure-aws-infrastructure-1.jpg"
-socmediaimg: "socmediaimg-strategies-digital-accessibility.png"
+socmediaimg: "socmediaimg-strategies-digital-accessibility.jpg"
 hiliteimg: "poster-strategies-digital-accessibility.png"
 poster_sourceurl:
 poster_source:
