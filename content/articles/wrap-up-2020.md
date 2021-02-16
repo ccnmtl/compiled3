@@ -17,7 +17,7 @@ poster_source: "Chris Barbalis on Unsplash"
 bookendanimal: "laptop-house"
 ---
 
-The year that was, with visually appealing, even pattern of 2-0-2-0, can be
+The year that just passed, with a visually appealing, even pattern of 2-0-2-0, can be
 summarized as tumultuous, weltschmerz, fatiguing, revealing, unprintable. That
 year—the very bad confluence of Covid-19 pandemic, national and global
 upheavals–challenged our understanding of our work, forced us to fortify our
