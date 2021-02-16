@@ -4,9 +4,9 @@ date: 2021-01-18
 type: "post"
 authors: ["ctldev"]
 tags: ["wrap-up","reviews"]
-lede: "Hindsight is 2020, and in this wrap-up, we look back and what we’ve
+lede: "Hindsight is 2020, and in this wrap-up, we look back at what we’ve
 learned and written in this extraordinary year."
-shortlede: "Hindsight is 2020, and in this wrap-up, we look back and what we’ve
+shortlede: "Hindsight is 2020, and in this wrap-up, we look back at what we’ve
 learned and written in this extraordinary year."
 poster: "poster-wrap-up-2020.jpg"
 thumbnail: "thumbnail-wrap-up-2020.jpg"
@@ -19,8 +19,8 @@ bookendanimal: "laptop-house"
 
 The year that was, with visually appealing, even pattern of 2-0-2-0, can be
 summarized as tumultuous, weltschmerz, fatiguing, revealing, unprintable. That
-year of the very bad trip confluence of Covid-19 pandemic, national and global
-upheavals, challenged our understanding of our work, forced us to fortify our
+year—the very bad confluence of Covid-19 pandemic, national and global
+upheavals–challenged our understanding of our work, forced us to fortify our
 focus, pushed us to examine our processes, and corralled our support for each
 other—both professional and personal.
 
