@@ -11,7 +11,7 @@ shortlede: "How do we get the most out of our user stories? Here are some tips
 for activating user stories throughout the project process."
 poster: "poster-activating-user-stories.jpg"
 thumbnail: "thumbnail-activating-user-stories.jpg"
-socmediaimg: "socmediaimg-activating-user-stories"
+socmediaimg: "socmediaimg-activating-user-stories.jpg"
 hiliteimg: "poster-activating-user-stories.jpg"
 poster_sourceurl: "https://unsplash.com/photos/p6ac4ss5vVM"
 poster_source: "Daria Nepriakhina on Unsplash.com"
