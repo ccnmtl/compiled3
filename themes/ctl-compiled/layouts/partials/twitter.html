@@ -10,9 +10,9 @@
 <meta name="twitter:description" content='
     {{- if (and .IsPage (eq .Type "post")) -}}
         {{- if .Params.lede -}}
-            {{- .Params.lede -}}
+            {{- .Date.Format "Jan 2, 2006" }} — {{ .Params.lede -}}
         {{- else -}}
-            {{- .Summary -}}
+            {{- .Date.Format "Jan 2, 2006" }} — {{ .Summary -}}
         {{- end -}}
     {{- else -}}
         {{- .Site.Params.description -}}
