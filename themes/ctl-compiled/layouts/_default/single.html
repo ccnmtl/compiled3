@@ -68,5 +68,13 @@
     </main>
 {{ partial "footer.html" . }}
 {{ partial "javascript.html" . }}
+
+{{ if .Params.js_file1 }}
+<script src="{{ .Params.js_file1 }}"></script>
+{{ end }}
+{{ if .Params.js_file2 }}
+<script src="{{ .Params.js_file2 }}"></script>
+{{ end }}
+
 </body>
 </html>
