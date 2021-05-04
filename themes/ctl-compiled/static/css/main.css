@@ -696,6 +696,18 @@ footer {
     background-color: #f5f5f5;
 }
 
+
+/* Special css for some post */
+
+.matterjs-demo {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.matterjs-demo canvas {
+    border: 1px solid #ddd;
+}
+
 /* GDPR cookies notice */
 
 #cu-privacy-notice {
