@@ -134,10 +134,8 @@ const adjustE = function(p) {
 let counter = 0;
 Matter.Events.on(engine, 'beforeUpdate', function(e) {
     if (e.timestamp >= counter + 500) {
-        me.particles.forEach(function(gasParticles) {
-            gasParticles.forEach(function(p) {
-                adjustE(p);
-            });
+        me.particles.forEach(function(p) {
+            adjustE(p);
         });
 
         counter = e.timestamp;
