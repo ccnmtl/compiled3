@@ -11,7 +11,13 @@
                 <img src="{{ .Site.BaseURL }}img/assets/{{ .Params.poster }}" class="img-fluid" alt="Poster image for this article" />
                 {{ if .Params.poster_source }}
                 <figcaption class="poster-source">
-                <span class="img-attr">Source: <a href="{{ .Params.poster_sourceurl }}" target="_blank" rel="noopener noreferrer">{{ .Params.poster_source }}</a></span>
+                <span class="img-attr">Source: 
+                    {{ if .Params.poster_sourceurl }}
+                        <a href="{{ .Params.poster_sourceurl }}" target="_blank" rel="noopener noreferrer">{{ .Params.poster_source }}</a>
+                    {{ else }}
+                        {{ .Params.poster_source }}
+                    {{ end }}
+                </span>
                 </figcaption>
                 {{ end }}
                 </figure>

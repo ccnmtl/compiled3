@@ -43,7 +43,7 @@
             <ul class="mt-4">
             {{ range $key, $value := .Site.Data.authors }}
                 {{ $allauthors := index $.Site.Data.authors $key}}
-                {{ if (and (ne $key "ctldev") (eq $allauthors.status "inactive")) }}
+                {{ if (and (ne $key "ctldev") (ne $allauthors.status "current")) }}
                 <li>{{ .name }} (<a href="/{{ $data.Plural }}/{{ $key | urlize }}" aria-label="Articles by {{ .firstName }}"><span aria-hidden="true">Article list</span></a>)</li>
                 {{ end }}
             {{ end }}
