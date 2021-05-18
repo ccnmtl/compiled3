@@ -47,7 +47,7 @@ video, the stakeholders would reference a specific time, and note the leading an
 the segment they’re identifying.
 
 This process of sending videos for review, receiving feedback, applying revisions, resharing and
-repeating can have a tendency to be cumbersome and error-prone. YouTube time-stamps may not align
+repeating can have a tendency to be cumbersome and error-prone. YouTube timestamps may not align
 directly with the editing platform, a granularity of one second is imprecise for video, adding a
 timecode burn on top of the video can obscure crucial points of revision, and even simply having
 the notes open on-screen can take up screen real estate from the editing software.
@@ -55,7 +55,7 @@ the notes open on-screen can take up screen real estate from the editing softwar
 {{< figure
     caption="The old way of sharing video feedback"
     src="/img/assets/jh-fio-comp-img2.jpg"
-    alt="A spreadsheet with multiple table columns for comments, time-stamps, to demostrate the cumbersome, error-prone way of sharing video feedback."
+    alt="A spreadsheet with multiple table columns for comments, timestamps, to demostrate the cumbersome, error-prone way of sharing video feedback."
     class="bordered" >}}
 
 This is exactly where we’ve found an elegant solution. [Frame.io](https://www.frame.io/) allows a
