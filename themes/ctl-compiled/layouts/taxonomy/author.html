@@ -15,6 +15,8 @@
             <h1 class="list-view-title author-name" id="pageContentTitle">{{ $authordata.name }}</h1>
             {{ if eq $authordata.status "current" }}
             <p class="intro">{{ $authordata.firstName }} is the {{ $authordata.jobTitle }} at the Center for Teaching and Learning. {{ $authordata.bioLine }}</p>
+            {{ else if eq $authordata.status "contributor" }}
+            <p class="intro">{{ $authordata.firstName }} is the {{ $authordata.jobTitle }} at the Center for Teaching and Learning. {{ $authordata.bioLine }}</p>
             {{ else }}
             <p class="intro">{{ $authordata.firstName }} was the {{ $authordata.jobTitle }} at the Center for Teaching and Learning.</p>            
             {{ end }}
