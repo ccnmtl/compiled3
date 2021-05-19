@@ -82,13 +82,14 @@ the edit of the media.
     zoomify="jh-fio-comp-img4" >}}
 
 One prime example of its utility is the production of the
-[Crisis Resource Management MOOC](https://www.edx.org/course/crisis-resource-management).
+[Crisis Resource Management open online course](https://www.edx.org/course/crisis-resource-management).
 For this course, I was tasked with creating picture-ready animated course graphics to accompany the
 lectures from the instructor’s draft slides, which were created in Powerpoint. Complex and specific
 medical scenarios and concepts needed to be translated and abstracted—yet doctors are not animators
 and animators are not doctors.
 
 {{< figure
+    caption="Side-by-side comparison of video iterations"
     src="/img/assets/jh-fio-comp-img5.jpg"
     alt="Frame.io shows on the right, a concept diagram for a piece of content provided by the client, and on the left, the animation to illustrate that same concept."
     zoomify="jh-fio-comp-img5" >}}
