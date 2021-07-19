@@ -4,16 +4,16 @@ date: 2021-07-16
 type: "post"
 authors: ["mustapha"]
 tags: ["user experience", "user interface", "visual design"]
-lede: "Color choices in interface design is an important component of user experience design.
+lede: "Color choice in interface design is an important component of user experience design.
 Colors in Locus Tempus are applied intentionally to communicate meaning in interface components,
 improve usability, integrate functionality and aesthetic design, and improve user engagement with
 the tool."
 shortlede: "An examination of color use in Locus Tempus to enhance usability, integrate
 functionality and aesthetic design, and improve user engagement with the tool."
 poster: "poster-ux-colors.jpg"
-thumbnail: "poster-ux-colors.jpg"
-socmediaimg: "poster-ux-colors.jpg"
 hiliteimg: "poster-ux-colors.jpg"
+thumbnail: "thumbnail-ux-colors.jpg"
+socmediaimg: "socmediaimg-ux-colors.jpg"
 poster_sourceurl: "https://unsplash.com/photos/4N4DiBz9c5s"
 poster_source: "Sanath Kumar on Unsplash.com"
 bookendanimal: "palette"
