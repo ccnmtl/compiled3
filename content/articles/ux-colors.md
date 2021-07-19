@@ -23,7 +23,7 @@ Software development in educational technologies benefits greatly from user expe
 to ensure that the user experience leads to the outcome of the pedagogical goals behind the
 application design.
 
-Color choices in user interface design is an important component of UXD. They can be a source of
+Color choices in user interface design are an important component of UXD. They can be a source of
 harmony that integrates product identity, visual design, mood. A combination of tone and saturation
 in user interface design can increase usability, affect functionality, and shape behavior. Colors
 can also indicate interactive components, and express relationships between elements on a page. A
@@ -96,7 +96,7 @@ sure the experience is accessible, then I began the process of choosing the righ
 
 ## Colors for user interface
 
-Looking at the palettes in map aforementioned mapping applications, blue is used to represent
+Looking at the palettes in the aforementioned mapping applications, blue is used to represent
 bodies of water, a dominant component on the map. Amber or yellow indicates major roadways such as
 freeways and highways. In Google Maps, areas shaded in light yellow suggest
 [places of interest](https://blog.google/products/maps/discover-action-around-you-with-updated/).
@@ -149,7 +149,7 @@ hierarchy.
 
 * Amber is warm, inviting, playful, and it focuses attention.
 * In maps, it represents a way of getting somewhere, and building blocks of interest. In Locus
-Tempus, amber is used to group parts and actions that lead the completion of an activity or action.
+Tempus, amber is used to group parts and actions that lead to the completion of an activity or action.
 
 ### Accent: Green
 
