@@ -43,7 +43,9 @@ visual design work in Locus Tempus, a recent web-based application that we devel
     class="mx-auto bordered"
 >}}
 
-Locus Tempus is an open-source digital mapping tool that leverages a geospatial environment to
+Locus Tempus
+([main website](https://locustempus.ctl.columbia.edu), [information](https://locustempus.ctl.columbia.edu/about/)
+is an open-source digital mapping tool that leverages a geospatial environment to
 engage students as repository builders, researchers and curators. Faculty and students from all
 disciplines can collaboratively identify, organize, and visualize geolocated materials within a
 course context.
