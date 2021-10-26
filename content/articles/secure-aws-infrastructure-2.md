@@ -180,7 +180,7 @@ clicking _Create Alarm_:
 Give the Alarm a name, and choose the Metric Namespace that was created earlier:
 
 {{< figure
-    src="/img/assets/console_specity_metric.png"
+    src="/img/assets/console_specify_metric.png"
     class="bordered"
     alt="Diagram of the console for specifying the metric." >}}
 
