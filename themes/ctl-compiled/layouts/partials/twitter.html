@@ -20,7 +20,7 @@
 {{ if (and .IsPage (eq .Type "post")) -}}
     {{- if.Params.socmediaimg -}}
         <meta name="twitter:image" content="{{- .Site.BaseURL -}}img/assets/{{- .Params.socmediaimg -}}" />
-        <meta name="twitter:image:alt" content="A poster image for {{.Title }}" />
+        <meta name="twitter:image:alt" content="A poster image for {{ .Title }}" />
     {{- else -}}
         <meta name="twitter:image" content="
             {{- if.Params.poster -}}
@@ -28,7 +28,7 @@
             {{- else -}}
                 {{- .Site.BaseURL -}}img/og-compiled-image.png
             {{- end -}}" />
-        <meta name="twitter:image:alt" content="A poster image for {{.Title }}" />
+        <meta name="twitter:image:alt" content="A poster image for {{ .Title }}" />
     {{- end -}}
 {{ else -}}
     <meta name="twitter:image" content="{{- .Site.BaseURL -}}img/og-compiled-image.png" />
