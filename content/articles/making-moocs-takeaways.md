@@ -157,7 +157,7 @@ digital communication platform where all members of our organization have
 access. This application is extremely useful for cutting down on emails while
 simultaneously opening up and encouraging channels of communication. In fact,
 there are so many useful features for project management within Slack that it
-most likely deserves its own Compiled article. However, I will do my best to
+most likely deserves its own CompilED article. However, I will do my best to
 cover some of the bases here.
 
 Not only is Slack good for ephemeral communication, but it is also great for
@@ -180,7 +180,7 @@ of its purpose and usefulness when it comes to communicating with us.
 
 ## Takeaway 3: Leverage Essential Graphics in Adobe After Effects
 
-Like Slack, this last takeaway probably deserves its own Compiled article.
+Like Slack, this last takeaway probably deserves its own CompilED article.
 However, I wanted to touch on it here because when it comes to producing
 repetitive graphics for large quantities of videos, there has been no greater
 innovation than Adobe’s Essential Graphics. Essential Graphics is a feature
