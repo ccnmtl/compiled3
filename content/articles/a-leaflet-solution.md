@@ -27,7 +27,7 @@ Lab.
     alt="Snapshot of the old virtual slides website." >}}
 
 The Histology and Pathology lab manuals are two of our static sites that until
-recently were using Webscope to view these massive aperio slides. These worked
+recently were using Webscope to view these massive Aperio slides. These worked
 out pretty well but ran using Flash. As you know, Flash is no longer supported
 in major browsers so we had to come up with a quick solution for the upcoming
 semester.
@@ -40,20 +40,20 @@ The other solution was to build our own viewer. We looked around for a possible
 way to display these slides and came across this guide from some folks at NYU
 [Virtual Microscope](https://iime.github.io/virtualmicroscope/). They proposed a
 solution which involved conversion of the slides to usable form and using a maps
-framework called Leaflet.
+framework called [Leaflet](https://leafletjs.com/).
 
 With this guide on hand, I began to convert around 143 slides from SVS to a huge
 tiled version of the image. To do this I used the recommened library [libvips](https://github.com/libvips/libvips). This allowed me to set up Leaflet to use those tiled images to
 create a virtual microscope where you can zoom all the way as if it were a real
 microscope. The Leaflet framework is usually used for maps so the virtual
-microscope works in a similar way to something like google maps.
+microscope works in a similar way to something like Google maps.
 
-To really make this accessible, we added some controllers. The pan controller
+To really make this accessible, I added some controllers. The pan controller
 allows the user to use the keyboard to pan accross the image, especially useful
 when zoomed in all the way, while the zoom slider allows for keyboard control of
-the magnification. Because we didn't have the info for exact magnification, I we
-set up a small algorithm so that the zoom levels were atleast consistent with
-eachother.
+the magnification. Because I didn't have the info for exact magnification, I
+set up a small algorithm so that the zoom levels were at least consistent with
+each other.
 
 {{< figure
     src="/img/assets/virtualmicroscope.png"
