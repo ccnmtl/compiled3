@@ -25,10 +25,10 @@ CTL.
 Our team develops both software and media for the teaching and learning
 community, so, we posted in CompilED three articles on the work in media
 production. We shared what we learned in developing many of our software
-projects, securing our infrastructure, and also touched upon the processes
+projects, securing our infrastructure, and also touching upon the processes
 involved in user stories and experience. 
 
-And we’ll begin the new year year in resolution to continue our efforts in
+And we’ll begin the new year year with a resolution to continue our efforts in
 advancing the culture and innovation in teaching and learning. Onward and
 upward!
 
