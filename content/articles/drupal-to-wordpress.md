@@ -1,5 +1,5 @@
 ---
-title: "Using Docker to Pilot a Drupal 7 to Wordpress Migration"
+title: "Using Docker To Pilot a Drupal 7 to Wordpress Migration"
 date: 2022-02-28
 type: "post"
 authors: ["dreher"]
@@ -36,7 +36,7 @@ stories” &mdash; multimedia essays exploring the Yiddish history of New York
 City.
 
 The project is a working collaboration between the Yiddish Studies Program,
-Columbia University Libraries, faculty partners.
+Columbia University Libraries and faculty partners.
 [Dr. Agi Legutko](https://germanic.columbia.edu/content/agnieszka-legutko),
 Lecturer in Yiddish in the Department of Germanic Studies, has overseen
 undergraduate and graduate students in building the collection, connecting
@@ -98,7 +98,7 @@ export and the production WP import went smoothly.
 
 There were a few loose ends to resolve, primarily around look and feel. Most of
 the old content
-[looked pretty good within the new WP templates](https://jewishstudiescolumbia.com/myny/arts/dybbuk-or-between-two- worlds-1948/).
+[looked pretty good within the new WP templates](https://jewishstudiescolumbia.com/myny/arts/dybbuk-or-between-two-worlds-1948/).
 Prof. Legutko worked with her graduate students to review and polish posts that
 didn’t transfer as nicely.
 
