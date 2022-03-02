@@ -66,14 +66,10 @@ links be made relative or be properly translated to the new url? A rigorous
 round of testing was in order. We devised the following plan to vet the
 migration in a development sandbox, with Docker as a primary tool.
 
-* Spin up a local Wordpress instance using
-[Docker](https://docs.docker.com/samples/wordpress/).
-* Import a site backup from the MyNy production Wordpress site into the local WP
-instance.
+* Spin up a local Wordpress instance using [Docker](https://docs.docker.com/samples/wordpress/).
+* Import a site backup from the MyNy production Wordpress site into the local WP instance.
 * Install the FG Drupal-to-Wordpress plugin into the local WP instance.
-* Spin up a local Mapping Yiddish New York instance using [our Docker
-configuration](https://github.com/ccnmtl/drupal7_myny/blob/master/drupal-docker.
-mk) with a production database backup.
+* Spin up a local Mapping Yiddish New York instance using [our Docker configuration](https://github.com/ccnmtl/drupal7_myny/blob/master/drupal-docker.mk) with a production database backup.
 * Point the local WP instance at the local MyNy instance.
 * Kick off the migration.
 * Export migrated content from the local Wordpress instance.
