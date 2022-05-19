@@ -535,7 +535,8 @@ code {
     margin: auto;
 }
 
-.entry-content figure.bordered img {
+.entry-content figure.bordered img,
+.entry-content .bordered {
     border: 1px solid #ddd;
 }
 
