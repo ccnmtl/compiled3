@@ -320,3 +320,4 @@ instructors at Deque.
 * [How Persons with Disabilities Use the Web](https://www.youtube.com/watch?v=WveJjhwaEDI): a video recording of a webinar by Deque.
 * [A11Y Style Guide](https://a11y-style-guide.com/style-guide/): a living style guide or pattern library with pre-populated accessible components.
 * [W3C Web Accessibility tutorials](https://www.w3.org/WAI/tutorials/): a collection of tutorials by W3C on how to develop web content that is accessible to people with disabilities.
+
