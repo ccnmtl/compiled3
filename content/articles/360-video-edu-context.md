@@ -1,6 +1,5 @@
 ---
-title: "Using Backward Design for the Purposeful Use of 360 Video in Educational
-Contexts"
+title: "Using Backward Design for the Purposeful Use of 360 Video in Educational Contexts"
 date: 2022-10-31
 type: "post"
 authors: ["hentrich"]
@@ -127,6 +126,10 @@ streets of Athens turn into an immersive art gallery that can be explored by
 students either through a guided experience or a more discoverable one. In doing
 so students can encounter works to translate, artists to research, and be
 exposed to socio-cultural phenomenon without setting foot in Athens.
+
+{{< figure
+    src="/img/assets/greek-streets-streetview.jpg"
+    alt="A scree-capture of 360 video of the street around 4 Kolleti St and 54 Emmanouil Benaki St in Greece. The street is lined with parked cars on the left, and on the right is a building whose wall is covered in grafitti. A yellow circle with camera icon on the wall indicates the link to a detailed photo view." >}}
 
 {{< figure
     src="/img/assets/greek-streets-detail-photo.jpg"
