@@ -1,15 +1,15 @@
 ---
-title: "Using Backward Design for the Purposeful Use of 360 Video in Educational Contexts"
+title: "Using Backward Design To Give Purpose to 360-Degree Videos"
 date: 2022-10-31
 type: "post"
 authors: ["hentrich"]
-tags: ["process","video","user-experience"]
+tags: ["process","video","user-experience","360-degree video","immersive media"]
 lede: "For the Greek Streets Project we used a backward design framework to
 guide our use of technology, rather than having the technology dictate classroom
-use. We applied ideas from VR to a web experience with 360 videos that allows
+use. We applied ideas from VR to a web experience with 360-degree videos that allows
 students to experience street art in situ."
 shortlede: "Using backward design we applied ideas from VR to a web experience
-with 360 videos that allows students to experience street art in situ."
+with 360-degree videos that allows students to experience street art in situ."
 poster: "poster-360-video-edu-context.jpg"
 thumbnail: "thumbnail-360-video-edu-context.jpg"
 socmediaimg: "socmediaimg-360-video-edu-context.jpg"
@@ -39,11 +39,11 @@ many of the attempts to incorporate these technologies into the classroom have
 come from corporate promotions that seek to “retrofit” proprietary technologies
 for educational purposes. Frustration from these attempts has led many to
 question the efficacy of these technologies for education with some, such as
-Malcolm Burt, saying that they have
+Malcolm Burt, writing for the _Times Higher Education_, saying that they have
 [ultimately failed](https://www.timeshighereducation.com/campus/virtual-reality-has-failed-education-so-what-should-we-do-it).
 While Burt writes about the difficulties of educating students on the use of VR,
 rather than the use of VR to serve other educational goals, the overall point is
-still well taken: VR, AR, and 360 video have not been widely adopted in college
+still well taken: VR, AR, and 360-degree video have not been widely adopted in college
 classrooms. 
 
 We offer an alternative approach that prioritizes student learning and course
@@ -72,9 +72,14 @@ Burt’s call for educators to “juggle their justifiably heightened expectatio
 of this technology’s future with more modest applications in the present.”  
 
 We took ideas from VR and applied them to an accessible web experience in our
-Greek Streets collaboration with Kakkoufa. We integrated a series of 360 videos
-into a website that centers on locations in Athens, showing  the graffiti and
-street life that you could otherwise only experience in person.
+Greek Streets collaboration with Kakkoufa. We integrated a series of 360-degree
+videos into a website that centers on locations in Athens, showing  the graffiti
+and street life that you could otherwise only experience in person.
+
+{{< figure
+    src="/img/assets/greek-streets-map.jpg"
+    caption="A map of Athens showing the locations of 360-degree videos captured for this project."
+    alt="A map of Athens, street index of the grafitti of Athens. The blue markers on the map are indicators of the locations of 360-degree videos captured for this project. The street names on the map are in Greek." >}}
 
 From a video production point of view, immersive media presents unique
 constraints and challenges. The rules and established norms of traditional
@@ -115,31 +120,34 @@ locations was created, then shared with the remote partners.
 
 {{< figure
     src="/img/assets/greek-streets-capture-plot.jpg"
-    alt="A map of the Greek-American neighborhood of Astoria, Queens. Some of the streets are marked with red lines to indicate path and direction of camera movement. Teal circles marks stationary 360 locations, and orange triangle represents still photo locations." >}}
+    caption="A map used for planning out test 360-video recordings in Astoria, Queens."
+    alt="A map of the Greek-American neighborhood of Astoria, Queens. Some of the streets are marked with red lines to indicate path and direction of camera movement. Teal circles marks stationary 360-degree video locations, and orange triangle represents still photo locations." >}}
 
 While we worked on production, we explored ways for the students to interact
 with the videos. We used a JavaScript library called
-[A-Frame](https://aframe.io/) to make our 3D world and put our 360 videos inside
-it. By pointing out areas of interest in the video, the viewer is brought into a
-zoomed-in view of the work in question, with descriptive text. In this way, the
-streets of Athens turn into an immersive art gallery that can be explored by
-students either through a guided experience or a more discoverable one. In doing
-so students can encounter works to translate, artists to research, and be
-exposed to socio-cultural phenomenon without setting foot in Athens.
+[A-Frame](https://aframe.io/) to make our 3D world and put our 360-degree videos
+inside it. By pointing out areas of interest in the video, the viewer is brought
+into a zoomed-in view of the work in question, with descriptive text. In this
+way, the streets of Athens turn into an immersive art gallery that can be
+explored by students either through a guided experience or a more discoverable
+one. In doing so students can encounter works to translate, artists to research,
+and be exposed to socio-cultural phenomena without setting foot in Athens.
 
 {{< figure
     src="/img/assets/greek-streets-streetview.jpg"
-    alt="A scree-capture of 360 video of the street around 4 Kolleti St and 54 Emmanouil Benaki St in Greece. The street is lined with parked cars on the left, and on the right is a building whose wall is covered in grafitti. A yellow circle with camera icon on the wall indicates the link to a detailed photo view." >}}
+    caption="A screen-capture of the 360 video-based virtual environment that allows users to explore and interact with the streets of Athens."
+    alt="A screen-capture of 360-degree video of the street around 4 Kolleti St and 54 Emmanouil Benaki St in Greece. The street is lined with parked cars on the left, and on the right is a building whose wall is covered in graffiti. A yellow circle with camera icon on the wall indicates the link to a detailed photo view." >}}
 
 {{< figure
     src="/img/assets/greek-streets-detail-photo.jpg"
-    alt="A screenshot showing a modal containing an enlarged photo of grafitti on the wall found at 2 Andrea Metaxa St. The grafitti is a comic on the role of goverment. The text are in Greek." >}}
+    caption="A detail view showing the interaction with high-resolution images embedded within a 360-degree video. This example focuses on a politically satirical comic within a densely packed wall of graffiti."
+    alt="A screenshot showing a modal containing an enlarged photo of graffiti on the wall found at 2 Andrea Metaxa St. The graffiti is a comic on the role of goverment. The text are in Greek." >}}
 
 No doubt, we could extend our use case to include a full VR headset, but for our
-educational goals at hand, that wasn't necessary. Hardware requirements such as
+educational goals at hand, that wasn’t necessary. Hardware requirements such as
 this are also an accessibility issue in terms of both disability and resources.
 When investing in  new technologies, it is important to be purposeful and
-intentional about what is being built. Are we making something just because it's
+intentional about what is being built. Are we making something just because it’s
 new and trendy, or are we actually fulfilling a real pedagogical need?
 
 We laid out a user-experience design plan for Kakkoufa’s students that supported
@@ -151,10 +159,11 @@ three-dimensional virtual space.
 
 {{< figure
     src="/img/assets/greek-streets-whiteboard.jpg"
+    caption="In order to create the navigation, interface, and information design of the prototype, the team had to first define the requirements of the functional design and content during an in-depth white-boarding session."
     alt="A photo showing sketches of user-experience design plan and storyboarding on a whiteboard." >}}
 
 Ultimately this project has been an experience in creative problem solving and a
-pilot for the purposeful use of 360 video in a course context. By using a
+pilot for the purposeful use of 360-degree video in a course context. By using a
 backward design approach as well as being tech-agnostic from the beginning we
 were able to explore all available options. This put the technology in the
 service of the learning goals for the course rather than the technology
