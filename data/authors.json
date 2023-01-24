@@ -88,6 +88,21 @@
         "headshot": "ndittren.png",
         "status": "current"
     },
+    "petersen": {
+        "name": "Evan Petersen",
+        "firstName": "Evan",
+        "lastName": "Petersen",
+        "jobTitle": "Assistant Programmer",
+        "jobLink": "https://ctl.columbia.edu/about/team/petersen/",
+        "bioLine": "A trained as a cartoonist in the School of Visual Arts, Evan writes and draws stories in her spare time.",
+        "email": "emp2221@columbia.edu",
+        "github": "",
+        "linkedin": "",
+        "twitter": "",
+        "www": "",
+        "headshot": "epetersen.png",
+        "status": "current"
+    },
     "ctldev": {
         "name": "CTL DevTeam",
         "firstName": "DevTeam",
