@@ -19,35 +19,36 @@ poster_sourceurl: ""
 poster_source: "Evan Petersen"
 bookendanimal: "universal-access"
 ---
-I think that it is valuable to reinforce the idea of accessibility-driven
-development from the perspective of a new developer. I joined Columbia’s Center
-for Teaching and Learning in June of 2022, about half a year ago at the time of
-this article. At the time there was a big push to improve the digital
-accessibility of our applications. Learning modules were passed around and
-everyone was refining the language to describe and develop software for the
-widest possible audience. Being new to the team, this gave me an opportunity to
-specialize in something that the others were not entirely ahead on, and
-accessibility compliance reviews gave me a point of entry to study the standards
-and structure of ongoing projects. The
+I would like to emphasize the value of accessibility-driven development, from
+the perspective of a new developer. I joined the Center for Teaching and
+Learning at Columbia University in June of 2022 – about half a year ago, as I
+write this article. At the time there was a big push to improve the digital
+accessibility of our applications. Training modules were passed around and
+everyone on the dev team was refining their language, learning to describe and
+develop software for the widest possible audience. Being new to the team, this
+gave me an opportunity to specialize in something that the others were not
+entirely ahead on, and accessibility compliance reviews gave me a point of
+entry to study the standards and structure of our internal development. The
 [standards of W3C](https://www.w3.org/WAI/standards-guidelines/)
-and other development guides provided a solid foundation to start from when
+and other development guides provided a solid foundation to start from, when
 creative solutions were required.
 
 A few months later, in October 2022, the university put out an 
 [official statement](https://accessibility.columbia.edu/content/website-accessibility-policy)
-on the matter which set the expectations for all future projects. As I started
-to sit in on meetings for the new development cycle, accessibility helped us to
-express more thorough use cases, which would define the underlying structure of
-the projects. How does a user navigate the site if they can’t see the screen?
-How much can we strip away and simplify while preserving core functionality and
-what styling can be applied to give the project a personality without disrupting
-the user experience?
+on the matter which set the expectations for all future projects. As I began to
+sit in on meetings for the new development cycle, accessibility helped us to
+express more thorough use cases, defining the underlying structure of the
+projects. How does a user navigate the site if they can’t see the screen? How
+much can we strip away and simplify while preserving core functionality? And
+what styling can be applied to give the project a personality without
+disrupting the user experience?
 
 That said, there is not always a clear path. As I write this I am working on a
 project based around modeling 3D objects for calculus. The objects can be
-time-dependent and animated, users can observe the normal vector and the tangent
-plane at a point, and presenters can poll the viewers with different kinds of
-questions.
+time-dependent and animated, users can observe the normal vector and the
+tangent plane at any point on an object, and presenters can poll the viewers
+with different kinds of questions.
+
 
 {{< figure
     src="/img/assets/3demos-screenshot-a.jpg"
@@ -71,27 +72,28 @@ who do you prioritize? Fortunately, solutions are rarely so narrow, and the
 answer to one problem can often fix several others. That’s where creativity
 lives.
 
-
 Math typesetting is one area that presents distinct issues. Compliance is not
-actually universal across platforms and what works on Firefox might not work in
-Chromium-based browsers. Our original build ran on a library called
+actually universal across platforms and what works on Mozilla Firefox might not
+work in Chromium-based browsers. Our original build ran on a library called
 [katex](https://katex.org/) which used [MathML](https://w3c.github.io/mathml/)
 to format and read Tex and [LaTex](https://www.latex-project.org/) inputs. This
-worked well for Firefox, but Chrome and Chromium-based browsers do not interpret
-MathML, and any screen reader that saw
+worked well for Firefox, but Google Chrome and other Chromium-based browsers do
+not interpret MathML, and any screen reader that saw
 <code>3&nbsp;&times;&nbsp;&radic;4&nbsp;&le;&nbsp;6y<sub>a</sub></code>
-would interpret it as “3 \times \sqrt 4 \leq 6 y_a”. While this is accurate
-LaTex formatting, it creates an additional barrier for understanding, where a
-student is then required to know LaTex formatting and parse the equation from a
-verbal description. In this case we switched over to the more robust
-[MathJax](https://docs.mathjax.org/en/latest/) library, which was much more
-universally accepted. As much as it can be exciting to explore newer libraries,
+would interpret it as “3 \times \sqrt 4 \leq 6 y_a”. Suddenly the student is
+required to know LaTex formatting and parse the equation from a verbal
+description. While this is accurate LaTex formatting, it creates an additional
+barrier for understanding. In this case we switched over to the more robust
+[MathJax](https://docs.mathjax.org/en/latest/) library, which is compatible
+with all browsers. As much as it can be exciting to explore newer libraries,
 unless APIs are developed with accessibility in mind, the newest thing on the
 market often only appeals to developers with the luxury to disregard the needs
-of certain users.
+of some users.
 
 Even so, the usefulness of this application remains limited to people with at
 least some degree of sight. To describe every facet of a graphical
 representation of these formulae would take longer than to express the
 underlying theory of the math which it represents. In that sense we don’t strive
-to be perfect, but we do our best and in doing so we improve as developers.
+to be perfect, but we work hard to improve the experience for everyone, and in
+doing so we improve as developers.
+
