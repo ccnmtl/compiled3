@@ -1,5 +1,5 @@
 <article itemscope itemtype="http://http://schema.org/BlogPosting">
-    <h2><a href="{{ .URL }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h2>
+    <h2><a href="{{ .Permalink }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h2>
     <p class="post-byline" itemprop="author" itemscope itemtype="http://schema.org/Person">By 
     {{ range $i, $e := .Params.authors }}{{if $i}}, {{end}}<a href='{{ "/authors/" | relLangURL }}{{ . | urlize }}' itemprop="url"><span itemprop="name">{{ (index $.Site.Data.authors $e).name }}</span></a>{{ end }}
     |

@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-lg-5">
                         <h2 id="sectionlatest">Latest article</h2>
-                        <h3 id="{{ .UniqueID }}"><a href="{{ .URL }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
+                        <h3 id="{{ .File.UniqueID }}"><a href="{{ .Permalink }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
                         <p class="post-byline" itemprop="author" itemscope itemtype="http://schema.org/Person">By 
                         {{ range $i, $e := .Params.authors }}{{if $i}}, {{end}}<a href='{{ "/authors/" | relLangURL }}{{ . | urlize }}' itemprop="url"><span itemprop="name">{{ (index $.Site.Data.authors $e).name }}</span></a>{{ end }}
                         </p>
@@ -31,7 +31,7 @@
                         {{ range $i, $e := .Params.tags }}{{if $i}}, {{end}}
                         <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" rel="tag"><span itemprop="keywords">{{$e}}</span></a>{{ end }}
                         </p>{{ end }}
-                        <a href='{{ .URL }}' class="read-prompt" aria-labelledby="{{ .UniqueID }}">Read article <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a>
+                        <a href='{{ .Permalink }}' class="read-prompt" aria-labelledby="{{ .File.UniqueID }}">Read article <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 {{ end }}
@@ -49,7 +49,7 @@
                         {{ else }}
                         <div class="post-thumbnail" style="background-image: url({{ .Site.BaseURL }}img/assets/og-compiled-image.png)"></div>
                         {{ end }}
-                        <h3 id="{{ .UniqueID }}"><a href="{{ .URL }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
+                        <h3 id="{{ .File.UniqueID }}"><a href="{{ .Permalink }}" itemprop="url"><span itemprop="headline">{{ .Title }}</span></a></h3>
                         <p class="post-byline" itemprop="author" itemscope itemtype="http://schema.org/Person">By 
                         {{ range $i, $e := .Params.authors }}{{if $i}}, {{end}}<a href='{{ "/authors/" | relLangURL }}{{ . | urlize }}' itemprop="url"><span itemprop="name">{{ (index $.Site.Data.authors $e).name }}</span></a>{{ end }}
                         </p>
@@ -63,7 +63,7 @@
                         {{ range $i, $e := .Params.tags }}{{if $i}}, {{end}}
                         <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" rel="tag"><span itemprop="keywords">{{$e}}</span></a>{{ end }}
                         </p>{{ end }}
-                        <a href='{{ .URL }}' class="read-prompt" aria-labelledby="{{ .UniqueID }}">Read more <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a>
+                        <a href='{{ .Permalink }}' class="read-prompt" aria-labelledby="{{ .File.UniqueID }}">Read more <i class="fas fa-chevron-circle-right ml-2" aria-hidden="true"></i></a>
                     </article>
                 </div>
                 {{ end }}
