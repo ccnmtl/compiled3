@@ -76,7 +76,8 @@ Smart Sparrow.
 Of course, custom-built, bespoke and sustainable free software isn't
 always viable.  The CTL is fortunate to have the resources to build
 and maintain our projects for years. Although only a small percentage
-of prospective projects get approved for funding, our vast portfolio
+of prospective projects get approved for funding, our vast
+[portfolio](https://portfolio.ctl.columbia.edu/)
 grows steadily.  In addition to the significant effort it takes to put
 together a project like this, any software needs development expertise
 to keep it working as platform technology changes over time.
