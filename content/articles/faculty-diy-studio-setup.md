@@ -1,18 +1,21 @@
 ---
-title: "Faculty D.I.Y. Studio Setup"
+title: "Four Things to Consider When Setting Up a D.I.Y. Studio for Faculty Use"
 date: 2023-06-05
 type: "post"
 authors: ["destefano"]
-tags: ["ux"]
-lede: "Integer cursus nisl orci, gravida placerat est efficitur in. Nullam sed suscipit ipsum."
-shortlede: "Integer cursus nisl orci, gravida placerat est efficitur in. Nullam sed suscipit ipsum."
+tags: ["media","user experience","recording studio","diy"]
+lede: "The CTL media team has carefully designed our DIY recording studios for instructors to
+create effective and purposeful content for students and courses. To ensure optimal experience for
+anyone using the studio spaces, we keep four main points in mind."
+shortlede: "Four primary points the CTL media team considers for operating and improving our DIY
+recording studios."
 poster: "poster-faculty-diy-studio-setup.jpg"
 thumbnail: "thumbnail-faculty-diy-studio-setup.jpg"
 socmediaimg: "socmediaimg-faculty-diy-studio-setup.jpg"
 hiliteimg: "poster-faculty-diy-studio-setup.jpg"
 poster_sourceurl: ""
-poster_source: ""
-bookendanimal: ""
+poster_source: "Frank DeStefano & Jason Guzman"
+bookendanimal: "video"
 ---
 Integer cursus nisl orci, gravida placerat est efficitur in. Nullam sed suscipit ipsum. Mauris vel semper eros, quis imperdiet libero. Nunc eget ante libero. Nulla facilisi. Morbi eu placerat ex. Donec convallis laoreet malesuada. Curabitur euismod feugiat tempus. Etiam a sollicitudin diam.
 
