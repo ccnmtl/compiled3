@@ -18,7 +18,7 @@
             {{ else if eq $authordata.status "contributor" }}
             <p class="intro">{{ $authordata.firstName }} is the {{ $authordata.jobTitle }} at the Center for Teaching and Learning. {{ $authordata.bioLine }}</p>
             {{ else }}
-            <p class="intro">{{ $authordata.firstName }} was the {{ $authordata.jobTitle }} at the Center for Teaching and Learning.</p>            
+            <p class="intro">{{ $authordata.firstName }} is the former {{ $authordata.jobTitle }} at the Center for Teaching and Learning. {{ $authordata.bioLine }}</p>            
             {{ end }}
             <ul class="nav author-network justify-content-center justify-content-lg-start" aria-label="Other links for {{ $authordata.firstName }}">
                 {{ if $authordata.email }}

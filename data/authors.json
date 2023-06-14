@@ -148,6 +148,21 @@
         "headshot": "jhanford.png",
         "status": "contributor"
     },
+    "destefano": {
+        "name": "Frank DeStefano",
+        "firstName": "Frank",
+        "lastName": "DeStefano",
+        "jobTitle": "Assistant Media Producer",
+        "jobLink": "https://ctl.columbia.edu/about/team/frank-destefano/",
+        "bioLine": "When not at work, he enjoys working on trains big and small at home; either operating full size museum pieces or building miniature counterparts.",
+        "email": "fd2520@columbia.edu",
+        "github": "",
+        "linkedin": "",
+        "twitter": "",
+        "www": "",
+        "headshot": "fdestefano.png",
+        "status": "contributor"
+    },
     "dreher": {
         "name": "Susan Dreher",
         "firstName": "Susan",
