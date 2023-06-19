@@ -37,7 +37,7 @@
     "url": "https://github.com/ccnmtl/compiled3/issues"
   },
   "devDependencies": {
-    "eslint": "~8.42.0",
+    "eslint": "~8.43.0",
     "eslint-plugin-security": "~1.7.0"
   },
   "dependencies": {}
