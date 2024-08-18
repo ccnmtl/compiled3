@@ -25,7 +25,7 @@ Columbia hundreds of times, I’ve never captured it fully in writing. I’ve
 written extensively about the circumstances of my departure from my previous
 employer for a course on the Political Economy of Media at the New School back
 in 2007
-[_Fabricating Freedom: Free Software Developers at Work and Play_](http://pocketknowledge.tc.columbia.edu/home.php/viewfile/38498),
+[_Fabricating Freedom: Free Software Developers at Work and Play_](https://alchemicalmusings.org/files/school/newschool-political_economy/jonahboss-fabricating-freedom.pdf),
 but that essay focused more on an analysis of free software and labor, and
 neglected to explore the connections between open source communities and
 education.
@@ -44,7 +44,7 @@ participants.  I would not read Seymour Papert’s
 until years later, but looking back it is easy to recognize how this open source community
 began to fulfill Papert’s vision of schools without walls or classrooms. I also
 experienced the lessons of Jacques Rancière’s
-[_The Ignorant Schoolmaster_](https://en.wikipedia.org/wiki/Jacques_Ranci%C3%A8re#Life_and_work Ignorant Schoolmaster)
+[_The Ignorant Schoolmaster_](https://en.wikipedia.org/wiki/The_Ignorant_Schoolmaster)
 first-hand as the Python community collectively embarked on intellectual emancipation.
 
 I decided to plot a course to the academy, unsure how I would make the
@@ -70,7 +70,7 @@ Collaborative Learning in the College Classroom_, eds. Robert E. Cummings and
 Matt Barton Ann Arbor: University of Michigan Press.: 2008.
 ([link](http://academiccommons.columbia.edu/catalog/ac:129460))
 * Bossewitch, Jonah. “Multiplicity and Social Coding.”
-[_Collaborative Futures_](http://collaborative-futures.org/):
+[_Collaborative Futures_](https://web.archive.org/web/20120320105057/http://www.booki.cc/collaborativefutures/multiplicity-and-social-coding/):
 _A Book About the Future of Collaboration, Written Collaboratively_.
 Lowercase Press: 2010. (excerpted from
 [_Versioning Dissonance_](http://alchemicalmusings.org/files/essays/versioning_dissonance/versioning_dissonance_jbossewitch_apa.pdf))
@@ -100,7 +100,7 @@ It always seemed like Columbia was perfectly positioned to take the lead on
 meaningful, progressive copyright reform, but we often got the opposite. Our
 former university librarian, Jim Neal, is a strong proponent for copyright
 reform, and would regularly host conferences such as
-[Correcting Course](http://correctingcourse.columbia.edu/program.html).
+[Correcting Course](https://web.archive.org/web/20060210115707/http://correctingcourse.columbia.edu/program.html).
 Under Jim, CCNMTL worked on various projects which involved strong assertion
 of Fair Use. The Center demonstrated clearly in practice what might become
 impossible if copyright law becomes even more draconian. President Bollinger
@@ -115,10 +115,10 @@ enrolled in a few architecture courses at Columbia
 [GSAPP](https://www.arch.columbia.edu). I wrote about ways that software
 architecture has begun to resemble increasingly traditional architecture as a
 leading art, and characterized Yochai Benkler as an architectural theorist
-([_Possibility Spaces_](http://pocketknowledge.tc.columbia.edu/home.php/viewfile/69866):
+([_Possibility Spaces_](https://alchemicalmusings.org/files/school/Hist%20of%20Theory%20of%20Arch/possibility_spaces_final_jbossewitch.pdf):
 _Architecture and the Builders of Information Societies_). I directly applied
 the ideas as described on CTL’s
-[Project Development page](https://ctl.columbia.edu/support/project-development/)
+[Project Development page](https://ctl.columbia.edu/about/)
 to educational environments, which then lead to the question: what sorts of
 values do we intend to infuse in our applications? If software is our  medium,
 and the medium is the message, what sorts of messages do our applications communicate?
