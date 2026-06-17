@@ -1,5 +1,6 @@
 ---
 title: "EOF"
+draft: true
 date: "2016-09-12"
 type: "post"
 authors: ["bossewitch"]
